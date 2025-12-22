@@ -138,7 +138,7 @@ max(ticketprice) from flights
 
 -- 5.	Show the average available seats and total revenue for each departure city, but only for cities with an average seat count greater than 150.
 select departurecity, 
-avg(AvailableSeats), sum(ticketprice * availableseats) as 'Total Revenue' from flights 						-- Here is issue with total revenue
+avg(AvailableSeats), sum(ticketprice * availableseats) as 'Total Revenue' from flights 						
 group by departurecity 
 having avg(AvailableSeats) > 150;
 
