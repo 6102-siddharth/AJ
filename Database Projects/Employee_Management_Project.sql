@@ -183,9 +183,6 @@ select * from employees where email like '%@example.com';
 --  Retrieve the details of employees in the Marketing department (DepartmentID: 11) who earn less than ₹60,000.
 select * from employees where salary<60000 and departmentid=11;
 
-select * from employees;
-select * from departments;
-
 -- Situation -6 A client requires a project lead for their team. Find the employee details where the name starts with 'S'.
 select * from employees where firstname like 'S%';
 
@@ -206,8 +203,6 @@ select * from employees where firstname like 'manager' or lastname like 'manager
 -- Department Table
 -- Situation -11 To identify local opportunities, list all the departments located in Pune.
 select * from departments where location ='pune';
-select * from employees;
-select * from departments;
 
 -- Situation -12 The board is interested in high-budget projects. Find the details of departments where the budget exceeds ₹10,00,000.
 select * from departments where annualbudget > 1000000;
@@ -227,9 +222,7 @@ select * from departments where annualbudget between 800000 and 1500000;
 select departmentid ,sum(salary) from employees group by departmentid;
 
 -- Situation -2: For employee retention analysis, count the number of employees in each department.
-select * from employees;
 select departmentid , count(employeeid) from employees group by departmentid;
-
 
 -- Situation -3: The finance team wants to understand salary variation. Find the average salary in each department.
 select departmentid, avg(salary) from employees group by departmentid;
@@ -270,104 +263,104 @@ select concat(departmentname," " , location) as Department_Address from departme
 -- Situation -3: To prepare a personalized email greeting, concatenate "Hello " with the employee's name and a comma.
 select employeeid, concat("Hello"," ",concat(firstname, " ", lastname)) from employees ;
 
--- Situation -4: For creating a unique employee ID, concatenate the department ID and employee number.								--Error 
-select concat(departmentid," " , employeeid) from employees;
+-- Situation -4: For creating a unique employee ID, concatenate the department ID and employee number.								
+select concat(departmentid," " ,employeeid) from employees;
+
 
 -- Situation -5: For creating a company contact list, concatenate the employee's phone number with their extension (if applicable).      --tried 
 select concat('+91', phone) from employees;
 select * from employees;
 
 -- Situation -6: To display the complete address, concatenate the street, city, and postal code of each employee.						
-
+select concat(City, " ", Postalcode) from departments; 
 
 -- Situation -7: To create an employee login ID, concatenate the employee’s first name, last name, and their department ID.				
-select concat(departmentid,"  ",firstname, " ", lastname) from employees;
+select concat(departmentid,"  ",firstname, " ", lastname) AS DEPT_FULLNAME from employees;
+
+-- Situation -8: For sending out a personalized notification, concatenate the employee's department with their position.
+select concat(departmentname," ",Position) as DEPT_position from Departments;
+
+-- Situation -9: To display the employee's work status, concatenate their job title and current project.
+select concat(jobtititle, " ",Projects) as Jobtitle_Projects from departments;
 select * from employees;
 select * from departments;
 
--- Situation -8: For sending out a personalized notification, concatenate the employee's department with their position.
-
-
--- Situation -9: To display the employee's work status, concatenate their job title and current project.
-
-
 -- Situation -10: For an annual report, concatenate the year and employee’s first name to create a unique report reference code.
-
+select concat(year, " ",Firstname) as Unique_Report from employees; 
 
 
 -- 5] Situational Questions on the UPDATE Clause
 
 -- Situation -1: As part of an organizational review, we need to update the salary of all employees who are part of the IT department (DepartmentID: 3). 
 -- The salary of all employees in this department should be increased by 10%. Make sure that the increase is applied to every employee within the department.
-
+select * from departments;
+select * from employees;
+update employees 
+set salary =salary * 1.10
+where departmentid=3;
 
 -- Situation -2: After the recent promotion evaluation, it has been decided that the employee with EmployeeID 101 should be promoted to a "Senior Developer" role.
 --  Update their job title accordingly and make sure the position is reflected correctly in the employee records.
-
+update employees 
+set job_Title ="Senior Developer"
+where employeeid=103; 
 
 -- Situation -3: The HR team has informed us of a change in the contact information of employee with EmployeeID 120. 
 -- The new contact number for this employee should be updated to "9876543210".
 --  Ensure that the correct phone number is reflected in the system for any future communications.
+update employees
+set phone=9876543210
+where employeeid=120;
 
 
 -- Situation -4: The company has recently implemented a new email domain.
 --  All employees who joined after January 1, 2023, need their email addresses updated to reflect the new domain "@newcompany.com".
 --  Update the email addresses accordingly for all the affected employees.
+update employees 
+set email="@newcompany.com"
+where dateofjoining > '2023-01-01';
 
 
 -- Situation -5: It has come to our attention that there was an error in the naming of the HR department.
---  The department name for DepartmentID 5 needs to be updated from "HR" to "Human Resources" to reflect the company's official title.
+--  The department name for DepartmentID 1 needs to be updated from "HR" to "Human Resources" to reflect the company's official title.
 --  Perform this update to ensure consistency across the records.
-
+update departments
+set Departmentname= "Human Resources"
+where departmentid =1 ;
+select * from departments;
 
 -- Situation -6: As part of a company-wide salary review process, all employees who are currently earning below ₹50,000 need to receive a salary increase of ₹5,000. 
 -- This update should only affect employees with a salary below the threshold and should apply the increase uniformly to each of their records.
-
+select * from employees ;
+update employees 
+set salary = salary +5000
+where salary <50000;
 
 -- Situation -7: The Marketing department has recently moved to a new office in a different city. 
 -- The location of the Marketing department (DepartmentID: 11) needs to be updated to reflect this change.
 --  Please update the location to "Mumbai" in the department's records accordingly.
-
+select* from departments;
+update departments
+set location ="Mumbai"
+where departmentid=11;
 
 -- Situation -8: Update the Salary of EmployeeID 135 to ₹60,000 as part of their annual appraisal.
+update employees
+set salary =60000
+where employeeid=135;
+
 
 -- Situation -9: EmployeeID 110, who was previously working on a different project, has now been assigned to "Project Alpha" 
 -- after the successful completion of their prior assignment.
 --  Please update the project assignment for this employee to reflect this new responsibility.
-
-
+update employees
+set project="Project Alpha"
+where employeeid=135;
 
 -- Situation -10: The employee with EmployeeID 103 had a delayed start date due to personal reasons.
 -- We need to update their joining date to the correct date, which is 2024-03-15, 
 -- to ensure the records accurately reflect the employee's actual start date with the company.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+update employees
+set dateofjoining="2024-03-15"
+where employeeid =103;
 
