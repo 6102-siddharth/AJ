@@ -4478,7 +4478,7 @@ on c.customerid=b.customerid
 group by customerid,fullname,bookingid
 having count(bookingid) > 5;
 
--- Question - 20] Identify customers who live in the same city. (Customers self join)                  --tried 
+-- Question - 20] Identify customers who live in the same city. (Customers self join)                  
 select * from customers;
 
 select c1.customerid, concat(c1.firstname," ",c1.lastname) as FullName, c1.city,
@@ -4518,6 +4518,8 @@ insert into rooms(roomtype,pricepernight,capacity) values
 select distinct customerid from bookings;
 
 --  Question - 26] Create a trigger to automatically delete a payment when its corresponding booking is deleted. 			-- Triggers
+
+
 
 
 -- Question - 27] The marketing team wants to update the FirstName of CustomerID = 30 to 'Rahul'.
@@ -4696,6 +4698,11 @@ select * from payments where amount between 2000 and 7000;
 
 -- Question - 77] Insert 5 booking records into the Bookings table with all details. 					        -- TO insert data
 select * from bookings;
+insert into bookings values(2001,200,80,40,'2025-10-06','2025-10-09',55606),
+(2002,199,79,39,'2025-10-10','2025-10-12',40000),
+(2003,198,78,38,'2025-11-06','2025-11-10',30000),
+(2004,197,79,37,'2024-07-07','2025-07-09',20000),
+(2005,196,76,36,'2024-11-06','2024-11-11',20000);
 
 
 -- Question - 78] Display the 3 lowest payments made by customers. 
@@ -4855,6 +4862,7 @@ select * from bookings where totalamount > 5000;
 update staff
 set role ='Senior Manager'
 where staffid=12;
+select * from staff;
 
 -- Question - 121] List all staff working as Managers. 
 select * from staff where role='manager';
@@ -4914,7 +4922,6 @@ select concat(firstname, " ",lastname) as Fullname from staff;
 
 -- Question - 135] Show all room details separated by commas using CONCAT_WS. 
 select concat_ws("    ",roomtype, " ",pricepernight)as Roomtype_price from rooms;
-;
 select * FROM rooms;
 
 -- Question - 136] Display each customer’s name and phone number together using CONCAT. 
@@ -4967,7 +4974,7 @@ select * from rooms order by pricepernight desc limit 2;
 select distinct firstname from customers;
 
 -- Question - 151] Show all unique roles in descending order.
-select distinct role from staff; 
+select distinct role from staff order by role desc; 
 
 -- Question - 152] Identify rooms whose Capacity is greater than the average Capacity of all rooms. (Rooms subquery) 
 select * from rooms where capacity >(select avg(capacity) from rooms);
@@ -5075,7 +5082,7 @@ select * from bookings where totalamount > 5000;
 select p.paymentid, concat(c.firstname," ",c.lastname) as Fullname , b.bookingid 
 from Payments p join customers c
 on c.bookingid =p.bookingid
-join bookings payments
+join bookings as b join payments
 on b.bookingid=p.bookingid;
 select * from payments;
 
