@@ -4518,7 +4518,16 @@ insert into rooms(roomtype,pricepernight,capacity) values
 select distinct customerid from bookings;
 
 --  Question - 26] Create a trigger to automatically delete a payment when its corresponding booking is deleted. 			-- Triggers
-
+DELIMITER //
+Create Trigger delete_after_payments_Backup
+after delete
+on bookings 
+for each row
+begin
+		delete from payments 
+        where bookingid=old.bookingid;
+end
+//
 
 
 
@@ -4586,7 +4595,8 @@ select distinct roomtype from rooms;
 select * from bookings where totalamount >50000;
 
 --  Question - 44] Delete all customers from the city 'TestCity'.						-- Delete
-
+delete from customers
+where city ='testcity';
 
 --  Question - 45] Find rooms that have the same PricePerNight. (Rooms self join) 
 select r1.roomid,r1.roomtype,r1.pricepernight,
@@ -4696,7 +4706,7 @@ select roomtype , pricepernight from rooms group by roomtype,pricepernight havin
 -- Question - 76] The cashier wants to see payments with Amount between ₹2000 and ₹7000 for mid-range billing checks. 
 select * from payments where amount between 2000 and 7000;
 
--- Question - 77] Insert 5 booking records into the Bookings table with all details. 					        -- TO insert data
+-- Question - 77] Insert 5 booking records into the Bookings table with all details. 					        
 select * from bookings;
 insert into bookings values(2001,200,80,40,'2025-10-06','2025-10-09',55606),
 (2002,199,79,39,'2025-10-10','2025-10-12',40000),
@@ -4719,7 +4729,7 @@ select distinct roomid from rooms order by roomid desc;
 -- Question - 81] Display each room’s RoomType and Price using CONCAT_WS. 
 select concat(roomtype, "  ",pricepernight) as Roomtype_Price from rooms;
 
--- Question - 82] The admin wants to delete all bookings handled by StaffID = 3. 								-- to delete record
+-- Question - 82] The admin wants to delete all bookings handled by StaffID = 3. 								
 delete from bookings
 where staffid=3;
 select * from bookings;
@@ -4741,7 +4751,7 @@ select concat(paymentid, "   ", amount) as Paymentid_Amount from payments;
 -- Question - 87] List all Card payments from the Payments table.
 select * from payments where paymentmethod = 'card';
 
--- Question - 88] Delete all customers whose Email ends with '@test.com' as invalid. 												-- To delete records
+-- Question - 88] Delete all customers whose Email ends with '@test.com' as invalid. 												
 select * from customers where email like '%@test.com';
 
 -- Question - 89] The hotel manager wants to review bookings where CheckOutDate before '2023-12-31' to measure old occupancy. 
@@ -4795,7 +4805,7 @@ select * from bookings limit 4;
 -- Question - 102] Show all unique staff first names. 
 select distinct firstname from staff;
 
--- Question - 103] Insert 5 new room records with type, price, and capacity into the Rooms table.						--To insert data
+-- Question - 103] Insert 5 new room records with type, price, and capacity into the Rooms table.						
 INSERT INTO Rooms (room_type, price, capacity)
 VALUES
 ('Single', 2000, 1),
@@ -4858,7 +4868,7 @@ select role,phone from staff where role='waiter';
 -- Question - 119] Show all bookings where TotalAmount > 5000. 
 select * from bookings where totalamount > 5000;
 
--- Question - 120] The HR team wants to update Role = 'Senior Manager' where StaffID = 12. 										-- to Update 
+-- Question - 120] The HR team wants to update Role = 'Senior Manager' where StaffID = 12. 										
 update staff
 set role ='Senior Manager'
 where staffid=12;
@@ -4873,7 +4883,7 @@ select * from customers order by customerid desc limit 2;
 -- Question - 123] Display each booking’s BookingID with TotalAmount using CONCAT. 
 select concat(bookingid, " " , Totalamount) as Bookingid_Amount from bookings;
 
--- Question - 124] Insert 5 staff members into the Staff table with their role, phone, and email. 					-- Insert data
+-- Question - 124] Insert 5 staff members into the Staff table with their role, phone, and email. 					
 insert into staff (role,phone,email) values 
 ('Manager',1234567890,'manager@gmail.com'),
 ('sales',9087654321,'sales@gmail.com'),
@@ -4886,8 +4896,9 @@ select * from staff;
 -- Question - 125] Display the RoomType and Price of only Suite rooms. 
 select roomtype , pricepernight from rooms where roomtype='suite';
 
--- Question - 126] The admin wants to delete all payments linked to BookingID = 15.									--delete query 
-
+-- Question - 126] The admin wants to delete all payments linked to BookingID = 15.									--delete query  foreign key delete issue
+delete from bookings
+where bookingid=15;
 
 -- Question - 127] Display all unique capacities in descending order. 
 select distinct capacity from rooms order by capacity desc;
@@ -5080,11 +5091,14 @@ select * from bookings where totalamount > 5000;
 
 -- Question - 182] Show PaymentID, Customer Name, and BookingID for payments made using 'Credit Card'. 
 select p.paymentid, concat(c.firstname," ",c.lastname) as Fullname , b.bookingid 
-from Payments p join customers c
-on c.bookingid =p.bookingid
-join bookings as b join payments
-on b.bookingid=p.bookingid;
+from bookings as b join customers c
+on c.customerid =b.customerid
+join payments as p
+on p.bookingid=b.bookingid
+where PaymentMethod='creditcard';
+
 select * from payments;
+select * from bookings;
 
 
 -- Question - 183] Display each booking’s BookingID with TotalAmount using CONCAT. 
@@ -5117,8 +5131,9 @@ select distinct firstname from customers;
 -- Question - 192] Display all bookings where TotalAmount > 5000. 
 select * from bookings where totalamount > 5000;
 
--- Question - 193] The admin wants to delete all payments where Amount < 1000. 										--delete
-
+-- Question - 193] The admin wants to delete all payments where Amount < 1000. 									
+delete from payments
+where amount <1000;
 
 -- Question - 194] Display all unique RoomIDs in descending order. 
 select distinct roomid from rooms order by roomid desc;
@@ -5170,13 +5185,47 @@ select * from bookings where Totalamount > 20000;
 select * from HighVALUEBOOKINGS;
  
 -- Question - 206] Create a trigger to automatically delete a payment when its corresponding booking is deleted. 				--trigger
+DELIMITER //
+Create Trigger delete_after_payments_Backup
+after delete
+on bookings 
+for each row
+begin
+		delete from payments 
+        where bookingid=old.bookingid;
+end
+//
 
 
 -- Question - 207] Create a trigger to prevent insertion of a booking where CheckOutDate < CheckInDate. 
+DELIMITER //
+ 
+create trigger insertion_date
+after insert 
+on bookings 
+for each row
+Begin
+		if new.checkoutdate < checkindate then 
+        signal sqlstate '45000' 
+        set message_text = 'Date error' ;
+		end if;
+END
+		
+//
+
+
 
 
 -- Question - 208] Create a trigger to automatically update TotalAmount in Bookings when a payment is inserted in Payments.
 
+DELIMITER //
+create trigger update_After_Booking
+after insert 
+on payments
+for each row
+BEGIN
+		update bookings set totalamount =totalamount + new.amount
+        where bookingid=new.bookingid;
+END
 
-
-
+//
