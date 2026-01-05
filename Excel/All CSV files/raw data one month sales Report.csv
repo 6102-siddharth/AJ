@@ -1,0 +1,1304 @@
+Date,Item,Sales Rep,Quantity,Price,Commission,State
+01-07-2018,Printer,John,20,80,0.01,Meghalaya
+01-07-2018,White Board,Mark,14,40,0.06,Uttar Pradesh
+01-07-2018,Office Chair,Mark,22,230,0.11,Maharashtra
+01-07-2018,Office Chair,John,8,230,0.03,Delhi
+01-07-2018,Office Chair,Laura,12,230,0.03,West Bengal
+01-07-2018,Printer,Stacey,19,80,0.02,Bihar
+01-07-2018,Diary,Bob,17,16,0.08,Goa
+01-07-2018,Projector,Stacey,7,150,0.05,Karnataka
+01-07-2018,Projector,Stacey,20,150,0.1,Gujarat
+01-07-2018,Diary,John,21,16,0.09,Jharkhand
+01-07-2018,Office Chair,Mark,7,230,0.01,Haryana
+02-07-2018,Printer,Stacey,7,80,0.07,Kerala
+02-07-2018,Printer,Bob,9,80,0.02,Meghalaya
+02-07-2018,White Board,Bob,16,40,0.09,Uttar Pradesh
+02-07-2018,Projector,Mark,23,150,0.11,Maharashtra
+02-07-2018,Diary,Stacey,22,16,0.03,Delhi
+02-07-2018,White Board,Stacey,23,40,0.06,West Bengal
+02-07-2018,Printer,John,20,80,0.01,Bihar
+03-07-2018,Printer,Stacey,11,80,0.01,Goa
+03-07-2018,White Board,Stacey,9,40,0.06,Karnataka
+03-07-2018,Printer,Bob,16,80,0.09,Gujarat
+03-07-2018,Printer,Laura,10,80,0.08,Jharkhand
+03-07-2018,Diary,Laura,12,16,0.11,Haryana
+03-07-2018,Projector,Stacey,6,150,0.03,Kerala
+03-07-2018,Diary,Laura,11,16,0.04,Meghalaya
+03-07-2018,Printer,Stacey,22,80,0.03,Uttar Pradesh
+03-07-2018,Diary,Mark,7,16,0.08,Maharashtra
+03-07-2018,White Board,Stacey,13,40,0.09,Delhi
+03-07-2018,Office Chair,Stacey,8,230,0.05,West Bengal
+03-07-2018,Diary,Stacey,14,16,0.12,Bihar
+03-07-2018,White Board,Bob,16,40,0.09,Goa
+04-07-2018,Projector,Mark,16,150,0.05,Karnataka
+04-07-2018,White Board,Mark,12,40,0.1,Gujarat
+04-07-2018,Printer,Bob,17,80,0.07,Jharkhand
+04-07-2018,Office Chair,Stacey,19,230,0.06,Haryana
+04-07-2018,Office Chair,Bob,22,230,0.1,Kerala
+04-07-2018,White Board,Stacey,22,40,0.01,Meghalaya
+04-07-2018,Diary,Stacey,10,16,0.04,Uttar Pradesh
+04-07-2018,White Board,Mark,4,40,0.12,Maharashtra
+04-07-2018,White Board,Bob,20,40,0.05,Delhi
+05-07-2018,Office Chair,Stacey,23,230,0.06,West Bengal
+05-07-2018,White Board,Laura,20,40,0.01,Bihar
+05-07-2018,Projector,Laura,20,150,0.04,Goa
+05-07-2018,Printer,Mark,9,80,0.03,Karnataka
+05-07-2018,Office Chair,John,7,230,0.02,Gujarat
+05-07-2018,Office Chair,John,3,230,0.06,Jharkhand
+05-07-2018,Projector,John,13,150,0.05,Haryana
+05-07-2018,Printer,John,17,80,0.09,Kerala
+06-07-2018,White Board,Stacey,18,40,0.06,Meghalaya
+06-07-2018,Diary,Laura,23,16,0.11,Uttar Pradesh
+06-07-2018,Office Chair,Laura,20,230,0.06,Maharashtra
+06-07-2018,Diary,John,11,16,0.09,Delhi
+06-07-2018,Projector,Bob,15,150,0.07,West Bengal
+06-07-2018,Office Chair,Mark,6,230,0.1,Bihar
+06-07-2018,White Board,John,22,40,0.02,Goa
+06-07-2018,White Board,John,15,40,0.06,Karnataka
+06-07-2018,Diary,Laura,12,16,0.03,Gujarat
+06-07-2018,Diary,Bob,22,16,0.12,Jharkhand
+06-07-2018,Printer,John,21,80,0.04,Haryana
+06-07-2018,Projector,John,22,150,0.05,Kerala
+06-07-2018,Printer,Bob,21,80,0.09,Meghalaya
+06-07-2018,Printer,Stacey,10,80,0.1,Uttar Pradesh
+06-07-2018,Office Chair,Mark,15,230,0.09,Maharashtra
+07-07-2018,Printer,John,14,80,0.08,Delhi
+07-07-2018,Printer,Bob,10,80,0.06,West Bengal
+07-07-2018,Projector,John,5,150,0.11,Bihar
+07-07-2018,Office Chair,Stacey,3,230,0.01,Goa
+07-07-2018,White Board,Stacey,4,40,0.05,Karnataka
+07-07-2018,Projector,Laura,18,150,0.06,Gujarat
+07-07-2018,White Board,Bob,20,40,0.1,Jharkhand
+07-07-2018,Printer,Stacey,16,80,0.05,Meghalaya
+07-07-2018,White Board,Laura,4,40,0.06,Uttar Pradesh
+07-07-2018,White Board,Mark,4,40,0.03,Maharashtra
+07-07-2018,White Board,Mark,15,40,0.02,Delhi
+07-07-2018,White Board,Laura,20,40,0.01,West Bengal
+07-07-2018,Diary,Bob,14,16,0.06,Bihar
+08-07-2018,Projector,Laura,11,150,0.11,Goa
+08-07-2018,Projector,Laura,9,150,0.02,Karnataka
+08-07-2018,Diary,Bob,11,16,0.12,Gujarat
+08-07-2018,White Board,Laura,13,40,0.02,Jharkhand
+08-07-2018,White Board,Laura,4,40,0.1,Haryana
+08-07-2018,Office Chair,John,3,230,0.11,Kerala
+08-07-2018,Printer,Laura,6,80,0.09,Meghalaya
+08-07-2018,Projector,John,9,150,0.1,Uttar Pradesh
+08-07-2018,Printer,Mark,14,80,0.11,Maharashtra
+08-07-2018,Printer,John,18,80,0.02,Delhi
+08-07-2018,White Board,John,20,40,0.04,West Bengal
+09-07-2018,Diary,Laura,8,16,0.03,Bihar
+09-07-2018,Printer,Mark,14,80,0.06,Goa
+09-07-2018,Projector,John,20,150,0.01,Karnataka
+09-07-2018,White Board,Stacey,15,40,0.03,Gujarat
+09-07-2018,White Board,Mark,18,40,0.08,Jharkhand
+09-07-2018,White Board,Bob,11,40,0.05,Haryana
+10-07-2018,White Board,Bob,23,40,0.04,Kerala
+10-07-2018,Diary,Bob,17,16,0.1,Meghalaya
+10-07-2018,Diary,Mark,4,16,0.07,Uttar Pradesh
+10-07-2018,Printer,Laura,23,80,0.05,Maharashtra
+10-07-2018,Office Chair,Laura,10,230,0.02,Delhi
+10-07-2018,Diary,Laura,14,16,0.01,West Bengal
+10-07-2018,White Board,Mark,19,40,0.1,Bihar
+10-07-2018,Printer,Bob,22,80,0.09,Goa
+10-07-2018,Diary,John,18,16,0.05,Karnataka
+10-07-2018,White Board,John,18,40,0.11,Gujarat
+10-07-2018,White Board,Bob,21,40,0.01,Jharkhand
+10-07-2018,Printer,John,6,80,0.07,Haryana
+10-07-2018,Projector,Bob,17,150,0.02,Kerala
+10-07-2018,Printer,Laura,16,80,0.02,Meghalaya
+10-07-2018,White Board,Mark,15,40,0.04,Uttar Pradesh
+10-07-2018,Office Chair,Stacey,2,230,0.08,Maharashtra
+10-07-2018,White Board,Bob,3,40,0.03,Delhi
+10-07-2018,Office Chair,Bob,21,230,0.05,West Bengal
+10-07-2018,Projector,John,11,150,0.05,Bihar
+11-07-2018,Projector,Mark,15,150,0.02,Goa
+11-07-2018,Printer,Stacey,16,80,0.1,Karnataka
+11-07-2018,Office Chair,Bob,17,230,0.11,Gujarat
+11-07-2018,White Board,Bob,16,40,0.11,Jharkhand
+11-07-2018,Printer,Stacey,2,80,0.08,Haryana
+11-07-2018,Projector,Mark,22,150,0.02,Kerala
+11-07-2018,Printer,John,16,80,0.03,Meghalaya
+12-07-2018,Diary,John,20,16,0.11,Uttar Pradesh
+12-07-2018,Printer,Bob,9,80,0.07,Maharashtra
+12-07-2018,Office Chair,Bob,5,230,0.12,Delhi
+12-07-2018,Diary,John,20,16,0.01,West Bengal
+12-07-2018,Diary,John,16,16,0.03,Bihar
+12-07-2018,Projector,Stacey,15,150,0.05,Goa
+12-07-2018,Office Chair,Mark,19,230,0.11,Karnataka
+13-07-2018,Projector,Laura,2,150,0.02,Gujarat
+13-07-2018,Printer,Bob,16,80,0.05,Jharkhand
+13-07-2018,White Board,Laura,2,40,0.03,Haryana
+13-07-2018,Printer,Mark,5,80,0.04,Kerala
+13-07-2018,Office Chair,Stacey,17,230,0.12,Meghalaya
+13-07-2018,Printer,John,8,80,0.08,Uttar Pradesh
+13-07-2018,White Board,Mark,4,40,0.06,Maharashtra
+13-07-2018,Diary,Laura,17,16,0.05,Delhi
+13-07-2018,Office Chair,Stacey,8,230,0.01,West Bengal
+13-07-2018,Diary,Bob,19,16,0.02,Bihar
+14-07-2018,White Board,John,18,40,0.06,Goa
+14-07-2018,Projector,Bob,23,150,0.08,Karnataka
+14-07-2018,Office Chair,John,5,230,0.1,Gujarat
+14-07-2018,Printer,Stacey,21,80,0.02,Jharkhand
+14-07-2018,Diary,Laura,6,16,0.07,Meghalaya
+14-07-2018,White Board,John,9,40,0.01,Uttar Pradesh
+14-07-2018,Office Chair,Mark,9,230,0.03,Maharashtra
+14-07-2018,Office Chair,Laura,5,230,0.1,Delhi
+14-07-2018,White Board,Stacey,7,40,0.11,West Bengal
+14-07-2018,Office Chair,John,20,230,0.04,Bihar
+14-07-2018,Projector,John,22,150,0.07,Goa
+15-07-2018,Office Chair,Laura,6,230,0.05,Karnataka
+15-07-2018,Office Chair,Laura,15,230,0.11,Gujarat
+15-07-2018,White Board,Mark,8,40,0.09,Jharkhand
+15-07-2018,White Board,John,5,40,0.06,Haryana
+15-07-2018,Printer,Bob,6,80,0.09,Kerala
+15-07-2018,White Board,Stacey,22,40,0.01,Meghalaya
+15-07-2018,Diary,John,7,16,0.08,Uttar Pradesh
+15-07-2018,Projector,Laura,22,150,0.04,Maharashtra
+15-07-2018,Diary,Stacey,15,16,0.12,Delhi
+15-07-2018,Printer,Laura,20,80,0.07,West Bengal
+15-07-2018,Printer,Laura,7,80,0.05,Bihar
+15-07-2018,Printer,Mark,10,80,0.11,Goa
+15-07-2018,Printer,Mark,2,80,0.07,Karnataka
+15-07-2018,Diary,Bob,23,16,0.01,Gujarat
+15-07-2018,Office Chair,Mark,12,230,0.03,Jharkhand
+16-07-2018,Office Chair,John,7,230,0.08,Haryana
+16-07-2018,White Board,Stacey,11,40,0.06,Kerala
+16-07-2018,Office Chair,Mark,7,230,0.08,Meghalaya
+16-07-2018,Printer,John,8,80,0.09,Uttar Pradesh
+16-07-2018,Printer,Stacey,16,80,0.07,Maharashtra
+16-07-2018,Printer,Laura,16,80,0.04,Delhi
+16-07-2018,Diary,Laura,9,16,0.05,West Bengal
+16-07-2018,Projector,Bob,11,150,0.09,Bihar
+16-07-2018,Diary,John,4,16,0.12,Goa
+16-07-2018,White Board,Stacey,15,40,0.03,Karnataka
+16-07-2018,White Board,Bob,20,40,0.03,Gujarat
+17-07-2018,Projector,Laura,9,150,0.06,Jharkhand
+17-07-2018,White Board,Mark,23,40,0.06,Haryana
+17-07-2018,Printer,Bob,13,80,0.05,Kerala
+17-07-2018,Diary,John,22,16,0.01,Meghalaya
+17-07-2018,White Board,John,19,40,0.04,Uttar Pradesh
+17-07-2018,Printer,Stacey,4,80,0.11,Maharashtra
+17-07-2018,Diary,John,12,16,0.11,Delhi
+17-07-2018,Projector,Mark,16,150,0.08,West Bengal
+17-07-2018,Printer,John,7,80,0.02,Bihar
+17-07-2018,White Board,Bob,20,40,0.07,Goa
+17-07-2018,Printer,Mark,15,80,0.12,Karnataka
+17-07-2018,White Board,John,5,40,0.09,Gujarat
+17-07-2018,Diary,Bob,12,16,0.04,Jharkhand
+18-07-2018,Projector,Stacey,3,150,0.01,Haryana
+18-07-2018,White Board,Bob,7,40,0.12,Kerala
+18-07-2018,Printer,Mark,2,80,0.04,Meghalaya
+18-07-2018,White Board,Stacey,6,40,0.07,Uttar Pradesh
+18-07-2018,Diary,Laura,6,16,0.06,Maharashtra
+18-07-2018,Diary,John,7,16,0.02,Delhi
+18-07-2018,Diary,Mark,20,16,0.06,West Bengal
+18-07-2018,Diary,Mark,21,16,0.02,Bihar
+18-07-2018,Printer,Stacey,21,80,0.05,Goa
+18-07-2018,Diary,Stacey,10,16,0.01,Karnataka
+19-07-2018,Office Chair,Stacey,2,230,0.09,Gujarat
+19-07-2018,Projector,John,20,150,0.03,Jharkhand
+19-07-2018,White Board,John,23,40,0.03,Haryana
+19-07-2018,Printer,Stacey,17,80,0.05,Kerala
+19-07-2018,Office Chair,Stacey,11,230,0.12,Meghalaya
+19-07-2018,Projector,Mark,10,150,0.01,Uttar Pradesh
+19-07-2018,Printer,Mark,17,80,0.03,Maharashtra
+20-07-2018,Office Chair,John,9,230,0.07,Delhi
+20-07-2018,Office Chair,John,11,230,0.02,West Bengal
+20-07-2018,White Board,Laura,2,40,0.02,Bihar
+20-07-2018,Office Chair,Bob,3,230,0.1,Goa
+20-07-2018,White Board,Bob,7,40,0.05,Karnataka
+20-07-2018,Projector,Mark,20,150,0.09,Gujarat
+20-07-2018,White Board,Laura,4,40,0.11,Jharkhand
+21-07-2018,Office Chair,Laura,2,230,0.09,Meghalaya
+21-07-2018,White Board,Mark,7,40,0.01,Uttar Pradesh
+21-07-2018,White Board,John,2,40,0.12,Maharashtra
+21-07-2018,Printer,Mark,3,80,0.02,Delhi
+21-07-2018,Diary,John,18,16,0.11,West Bengal
+21-07-2018,Printer,Mark,5,80,0.07,Bihar
+21-07-2018,Diary,Laura,3,16,0.05,Goa
+21-07-2018,Printer,Stacey,7,80,0.02,Karnataka
+21-07-2018,Projector,Stacey,15,150,0.08,Gujarat
+21-07-2018,Printer,Laura,10,80,0.11,Jharkhand
+21-07-2018,Office Chair,Bob,13,230,0.06,Haryana
+21-07-2018,White Board,John,7,40,0.1,Kerala
+21-07-2018,Diary,Laura,6,16,0.01,Meghalaya
+22-07-2018,White Board,Laura,11,40,0.05,Uttar Pradesh
+22-07-2018,Printer,Stacey,8,80,0.06,Maharashtra
+22-07-2018,Printer,John,9,80,0.04,Delhi
+22-07-2018,White Board,Bob,4,40,0.09,West Bengal
+22-07-2018,Printer,Mark,13,80,0.06,Bihar
+22-07-2018,Projector,Bob,4,150,0.05,Goa
+22-07-2018,Office Chair,Laura,14,230,0.12,Karnataka
+22-07-2018,Projector,Bob,13,150,0.11,Gujarat
+22-07-2018,Projector,Mark,16,150,0.03,Jharkhand
+22-07-2018,Diary,John,7,16,0.12,Haryana
+22-07-2018,Projector,Stacey,9,150,0.02,Kerala
+22-07-2018,Diary,John,10,16,0.08,Meghalaya
+22-07-2018,Printer,Stacey,15,80,0.08,Uttar Pradesh
+22-07-2018,Printer,Bob,9,80,0.06,Maharashtra
+23-07-2018,Diary,Stacey,7,16,0.08,Delhi
+23-07-2018,Projector,Bob,7,150,0.03,West Bengal
+23-07-2018,Office Chair,Stacey,16,230,0.11,Bihar
+23-07-2018,Diary,Stacey,18,16,0.04,Goa
+23-07-2018,Office Chair,Bob,20,230,0.11,Karnataka
+23-07-2018,Projector,John,7,150,0.02,Gujarat
+23-07-2018,Diary,Laura,11,16,0.12,Jharkhand
+23-07-2018,White Board,Laura,12,40,0.02,Haryana
+23-07-2018,Projector,Bob,7,150,0.02,Kerala
+23-07-2018,Printer,Laura,14,80,0.1,Meghalaya
+23-07-2018,Office Chair,Laura,12,230,0.06,Uttar Pradesh
+24-07-2018,Printer,Mark,21,80,0.04,Maharashtra
+24-07-2018,Projector,John,8,150,0.09,Delhi
+24-07-2018,Printer,Mark,16,80,0.04,West Bengal
+24-07-2018,Office Chair,Mark,14,230,0.05,Bihar
+24-07-2018,White Board,Laura,2,40,0.03,Goa
+24-07-2018,Projector,John,4,150,0.1,Karnataka
+24-07-2018,Printer,Laura,6,80,0.01,Gujarat
+24-07-2018,White Board,Laura,6,40,0.06,Jharkhand
+24-07-2018,Projector,John,20,150,0.04,Haryana
+24-07-2018,White Board,Laura,18,40,0.03,Kerala
+24-07-2018,Office Chair,Stacey,18,230,0.01,Meghalaya
+24-07-2018,Office Chair,Laura,15,230,0.04,Uttar Pradesh
+24-07-2018,Diary,Mark,22,16,0.01,Maharashtra
+24-07-2018,Projector,John,17,150,0.12,Delhi
+25-07-2018,Diary,Mark,5,16,0.11,West Bengal
+25-07-2018,Projector,John,23,150,0.1,Bihar
+25-07-2018,Projector,Stacey,22,150,0.05,Goa
+25-07-2018,Diary,Bob,15,16,0.01,Karnataka
+25-07-2018,White Board,Stacey,7,40,0.07,Gujarat
+25-07-2018,Printer,Bob,22,80,0.11,Jharkhand
+25-07-2018,Projector,Laura,11,150,0.05,Haryana
+25-07-2018,White Board,Mark,21,40,0.03,Kerala
+25-07-2018,Printer,Stacey,23,80,0.11,Meghalaya
+25-07-2018,Office Chair,Laura,7,230,0.01,Uttar Pradesh
+25-07-2018,Office Chair,John,16,230,0.07,Maharashtra
+25-07-2018,Printer,Mark,14,80,0.11,Delhi
+25-07-2018,Projector,Laura,22,150,0.09,West Bengal
+25-07-2018,Projector,Stacey,4,150,0.12,Bihar
+25-07-2018,Projector,John,3,150,0.03,Goa
+25-07-2018,White Board,Bob,17,40,0.02,Karnataka
+25-07-2018,Printer,Bob,22,80,0.1,Gujarat
+25-07-2018,Projector,Bob,18,150,0.12,Jharkhand
+26-07-2018,Projector,John,4,150,0.06,Meghalaya
+26-07-2018,Office Chair,Mark,22,230,0.04,Uttar Pradesh
+26-07-2018,Projector,Mark,15,150,0.12,Maharashtra
+26-07-2018,Printer,John,17,80,0.07,Delhi
+26-07-2018,White Board,Bob,10,40,0.03,West Bengal
+26-07-2018,White Board,John,23,40,0.07,Bihar
+26-07-2018,Diary,Mark,22,16,0.04,Goa
+26-07-2018,Printer,Laura,8,80,0.02,Karnataka
+26-07-2018,Diary,Mark,4,16,0.09,Gujarat
+26-07-2018,White Board,Stacey,11,40,0.09,Jharkhand
+26-07-2018,Office Chair,Laura,18,230,0.01,Haryana
+27-07-2018,Office Chair,Mark,11,230,0.1,Kerala
+27-07-2018,Office Chair,John,15,230,0.05,Meghalaya
+27-07-2018,White Board,Bob,7,40,0.04,Uttar Pradesh
+27-07-2018,Projector,Laura,20,150,0.12,Maharashtra
+27-07-2018,Printer,Laura,5,80,0.09,Delhi
+27-07-2018,Printer,Stacey,14,80,0.05,West Bengal
+27-07-2018,Office Chair,Stacey,7,230,0.06,Bihar
+27-07-2018,White Board,Stacey,13,40,0.06,Goa
+28-07-2018,Diary,Mark,15,16,0.02,Karnataka
+28-07-2018,Diary,Stacey,5,16,0.09,Gujarat
+28-07-2018,Diary,John,22,16,0.06,Jharkhand
+28-07-2018,Projector,Laura,15,150,0.05,Haryana
+28-07-2018,Office Chair,Laura,5,230,0.01,Kerala
+28-07-2018,White Board,John,11,40,0.04,Meghalaya
+28-07-2018,Projector,Mark,13,150,0.08,Uttar Pradesh
+28-07-2018,Diary,Bob,13,16,0.07,Maharashtra
+28-07-2018,Diary,Bob,3,16,0.03,Delhi
+29-07-2018,Projector,Mark,2,150,0.09,West Bengal
+29-07-2018,Office Chair,Laura,14,230,0.03,Bihar
+29-07-2018,White Board,Laura,11,40,0.12,Goa
+29-07-2018,Diary,Bob,3,16,0.06,Karnataka
+29-07-2018,White Board,Bob,18,40,0.06,Gujarat
+29-07-2018,Office Chair,Bob,7,230,0.05,Jharkhand
+29-07-2018,White Board,Bob,23,40,0.05,Haryana
+30-07-2018,Office Chair,Bob,2,230,0.08,Kerala
+30-07-2018,White Board,Stacey,18,40,0.04,Meghalaya
+30-07-2018,Office Chair,Mark,7,230,0.05,Uttar Pradesh
+30-07-2018,White Board,Bob,14,40,0.11,Maharashtra
+30-07-2018,Projector,Mark,13,150,0.02,Delhi
+30-07-2018,Printer,John,12,80,0.04,West Bengal
+30-07-2018,Office Chair,Bob,20,230,0.09,Bihar
+30-07-2018,White Board,Bob,5,40,0.03,Goa
+30-07-2018,Diary,Bob,2,16,0.04,Karnataka
+01-07-2018,Printer,Laura,10,80,0.08,Gujarat
+01-07-2018,White Board,Stacey,18,40,0.06,Jharkhand
+01-07-2018,Office Chair,Mark,7,230,0.08,Haryana
+01-07-2018,White Board,Stacey,15,40,0.03,Kerala
+01-07-2018,Diary,Laura,6,16,0.01,Meghalaya
+01-07-2018,Projector,Stacey,9,150,0.02,Uttar Pradesh
+01-07-2018,Diary,Bob,15,16,0.01,Maharashtra
+01-07-2018,Printer,Bob,22,80,0.11,Delhi
+01-07-2018,Projector,Mark,13,150,0.02,West Bengal
+02-07-2018,Diary,Laura,12,16,0.03,Bihar
+02-07-2018,White Board,Stacey,4,40,0.05,Goa
+02-07-2018,Office Chair,Mark,19,230,0.11,Karnataka
+02-07-2018,White Board,Mark,4,40,0.06,Gujarat
+02-07-2018,Diary,Laura,6,16,0.07,Jharkhand
+02-07-2018,Office Chair,Laura,15,230,0.11,Haryana
+02-07-2018,Printer,Laura,16,80,0.04,Kerala
+02-07-2018,White Board,John,7,40,0.1,Meghalaya
+02-07-2018,White Board,Laura,11,40,0.05,Uttar Pradesh
+02-07-2018,Printer,Bob,9,80,0.06,Maharashtra
+02-07-2018,Printer,Mark,21,80,0.04,Delhi
+02-07-2018,White Board,Laura,2,40,0.03,West Bengal
+03-07-2018,Diary,Laura,17,16,0.05,Bihar
+03-07-2018,White Board,John,18,40,0.06,Goa
+03-07-2018,White Board,John,9,40,0.01,Karnataka
+03-07-2018,White Board,Mark,7,40,0.01,Gujarat
+03-07-2018,Office Chair,Laura,12,230,0.06,Jharkhand
+03-07-2018,Diary,Mark,22,16,0.04,Meghalaya
+04-07-2018,Projector,John,5,150,0.11,Uttar Pradesh
+04-07-2018,Printer,Mark,14,80,0.11,Maharashtra
+04-07-2018,Diary,Laura,8,16,0.03,Delhi
+04-07-2018,Office Chair,Laura,6,230,0.05,West Bengal
+04-07-2018,Diary,Stacey,7,16,0.08,Bihar
+04-07-2018,Printer,Mark,16,80,0.04,Goa
+04-07-2018,Projector,John,17,150,0.12,Karnataka
+04-07-2018,Diary,Mark,7,16,0.08,Gujarat
+05-07-2018,Diary,John,21,16,0.09,Jharkhand
+05-07-2018,Diary,Laura,23,16,0.11,Haryana
+05-07-2018,Projector,Laura,2,150,0.02,Kerala
+05-07-2018,Projector,John,22,150,0.07,Meghalaya
+05-07-2018,White Board,Stacey,22,40,0.01,Uttar Pradesh
+05-07-2018,Printer,Mark,10,80,0.11,Maharashtra
+05-07-2018,Printer,Bob,13,80,0.05,Delhi
+05-07-2018,Office Chair,Stacey,11,230,0.12,West Bengal
+05-07-2018,Office Chair,John,9,230,0.07,Bihar
+05-07-2018,Office Chair,Stacey,16,230,0.11,Goa
+05-07-2018,Office Chair,Stacey,18,230,0.01,Karnataka
+05-07-2018,Diary,Mark,15,16,0.02,Gujarat
+05-07-2018,White Board,Bob,18,40,0.06,Jharkhand
+05-07-2018,White Board,Stacey,18,40,0.04,Haryana
+05-07-2018,Diary,Stacey,22,16,0.03,Kerala
+05-07-2018,Diary,Laura,12,16,0.11,Meghalaya
+06-07-2018,Printer,John,20,80,0.01,Uttar Pradesh
+06-07-2018,Office Chair,Laura,10,230,0.02,Maharashtra
+06-07-2018,Office Chair,Mark,9,230,0.03,Delhi
+06-07-2018,Printer,Mark,17,80,0.03,West Bengal
+06-07-2018,White Board,Bob,4,40,0.09,Bihar
+06-07-2018,Projector,Mark,16,150,0.03,Goa
+06-07-2018,Printer,Laura,8,80,0.02,Karnataka
+06-07-2018,White Board,Stacey,23,40,0.06,Gujarat
+07-07-2018,Projector,Stacey,20,150,0.1,Jharkhand
+07-07-2018,Office Chair,Bob,22,230,0.1,Haryana
+07-07-2018,Office Chair,Mark,6,230,0.1,Kerala
+07-07-2018,Printer,Stacey,10,80,0.1,Meghalaya
+07-07-2018,Office Chair,Bob,21,230,0.05,Uttar Pradesh
+07-07-2018,Office Chair,John,20,230,0.04,Maharashtra
+07-07-2018,Printer,Laura,20,80,0.07,Delhi
+07-07-2018,Printer,Laura,7,80,0.05,West Bengal
+07-07-2018,Printer,John,8,80,0.09,Bihar
+07-07-2018,Printer,Mark,3,80,0.02,Goa
+07-07-2018,Printer,Stacey,8,80,0.06,Karnataka
+07-07-2018,Projector,Bob,13,150,0.11,Gujarat
+07-07-2018,Printer,Stacey,15,80,0.08,Jharkhand
+07-07-2018,Projector,Bob,7,150,0.02,Haryana
+07-07-2018,White Board,Laura,6,40,0.06,Kerala
+07-07-2018,Printer,Stacey,23,80,0.11,Meghalaya
+07-07-2018,Office Chair,Laura,18,230,0.01,Uttar Pradesh
+08-07-2018,Printer,Bob,21,80,0.09,Maharashtra
+08-07-2018,White Board,Laura,13,40,0.02,Delhi
+08-07-2018,Printer,Laura,23,80,0.05,West Bengal
+08-07-2018,Projector,Stacey,15,150,0.05,Bihar
+08-07-2018,White Board,John,5,40,0.09,Goa
+08-07-2018,Diary,Stacey,10,16,0.01,Karnataka
+08-07-2018,Office Chair,Laura,2,230,0.09,Gujarat
+08-07-2018,Printer,Stacey,7,80,0.02,Jharkhand
+08-07-2018,Projector,Stacey,22,150,0.05,Haryana
+08-07-2018,White Board,Bob,17,40,0.02,Kerala
+08-07-2018,Diary,John,22,16,0.06,Meghalaya
+08-07-2018,Diary,Bob,3,16,0.03,Uttar Pradesh
+08-07-2018,Office Chair,Bob,2,230,0.08,Maharashtra
+08-07-2018,Diary,John,21,16,0.09,Delhi
+08-07-2018,Printer,Stacey,7,80,0.07,West Bengal
+08-07-2018,Projector,Mark,23,150,0.11,Bihar
+09-07-2018,Projector,John,11,150,0.05,Goa
+09-07-2018,Printer,Bob,16,80,0.05,Karnataka
+09-07-2018,Office Chair,Laura,5,230,0.1,Gujarat
+09-07-2018,Diary,John,22,16,0.01,Jharkhand
+09-07-2018,White Board,Bob,7,40,0.12,Meghalaya
+09-07-2018,Printer,Mark,2,80,0.04,Uttar Pradesh
+09-07-2018,White Board,Stacey,6,40,0.07,Maharashtra
+09-07-2018,Printer,Laura,6,80,0.01,Delhi
+09-07-2018,Diary,Mark,22,16,0.01,West Bengal
+09-07-2018,Office Chair,Stacey,7,230,0.06,Bihar
+10-07-2018,Diary,Stacey,22,16,0.03,Goa
+10-07-2018,White Board,Bob,20,40,0.05,Karnataka
+10-07-2018,White Board,Mark,19,40,0.1,Gujarat
+10-07-2018,Diary,John,18,16,0.05,Jharkhand
+10-07-2018,White Board,Laura,2,40,0.02,Haryana
+10-07-2018,White Board,Stacey,7,40,0.07,Kerala
+10-07-2018,Projector,Laura,11,150,0.05,Meghalaya
+10-07-2018,Printer,Mark,14,80,0.11,Uttar Pradesh
+10-07-2018,White Board,Bob,7,40,0.04,Maharashtra
+10-07-2018,Printer,Stacey,14,80,0.05,Delhi
+11-07-2018,Diary,Laura,12,16,0.11,West Bengal
+11-07-2018,White Board,Bob,11,40,0.05,Bihar
+11-07-2018,Diary,Laura,14,16,0.01,Goa
+11-07-2018,Office Chair,Stacey,2,230,0.08,Karnataka
+11-07-2018,Diary,John,20,16,0.11,Gujarat
+11-07-2018,Diary,Laura,6,16,0.06,Jharkhand
+11-07-2018,Printer,Stacey,17,80,0.05,Haryana
+11-07-2018,White Board,John,2,40,0.12,Kerala
+11-07-2018,Diary,John,7,16,0.12,Meghalaya
+11-07-2018,Projector,John,7,150,0.02,Uttar Pradesh
+11-07-2018,Printer,John,20,80,0.01,Maharashtra
+11-07-2018,Printer,Stacey,11,80,0.01,Delhi
+11-07-2018,Printer,Laura,10,80,0.08,West Bengal
+12-07-2018,Printer,Mark,5,80,0.04,Bihar
+12-07-2018,Printer,Stacey,4,80,0.11,Goa
+12-07-2018,Diary,Laura,3,16,0.05,Karnataka
+12-07-2018,Printer,John,9,80,0.04,Gujarat
+12-07-2018,Printer,Bob,16,80,0.09,Jharkhand
+13-07-2018,Diary,Mark,7,16,0.08,Haryana
+13-07-2018,Projector,Mark,16,150,0.05,Kerala
+13-07-2018,Diary,Stacey,10,16,0.04,Meghalaya
+13-07-2018,White Board,Mark,4,40,0.03,Uttar Pradesh
+13-07-2018,White Board,Mark,15,40,0.02,Maharashtra
+13-07-2018,Printer,Laura,6,80,0.09,Delhi
+13-07-2018,Projector,John,20,150,0.01,West Bengal
+13-07-2018,Diary,John,7,16,0.08,Bihar
+13-07-2018,Printer,Mark,2,80,0.07,Goa
+13-07-2018,White Board,Mark,23,40,0.06,Karnataka
+13-07-2018,Diary,John,12,16,0.11,Gujarat
+13-07-2018,Office Chair,Stacey,2,230,0.09,Jharkhand
+13-07-2018,Projector,John,4,150,0.06,Haryana
+13-07-2018,White Board,John,23,40,0.07,Kerala
+13-07-2018,Diary,Bob,2,16,0.04,Meghalaya
+13-07-2018,Projector,Stacey,7,150,0.05,Uttar Pradesh
+14-07-2018,White Board,John,15,40,0.06,Maharashtra
+14-07-2018,Printer,Stacey,16,80,0.05,Delhi
+14-07-2018,White Board,Bob,16,40,0.11,West Bengal
+14-07-2018,Diary,Bob,23,16,0.01,Bihar
+14-07-2018,Office Chair,Mark,12,230,0.03,Goa
+14-07-2018,Diary,John,4,16,0.12,Karnataka
+14-07-2018,Projector,Stacey,3,150,0.01,Gujarat
+14-07-2018,Projector,Mark,10,150,0.01,Jharkhand
+14-07-2018,Printer,Mark,13,80,0.06,Haryana
+14-07-2018,Office Chair,Laura,15,230,0.04,Kerala
+14-07-2018,Projector,John,23,150,0.1,Meghalaya
+14-07-2018,Projector,Mark,15,150,0.12,Uttar Pradesh
+14-07-2018,Projector,Laura,20,150,0.12,Maharashtra
+14-07-2018,White Board,Stacey,13,40,0.09,Delhi
+15-07-2018,Diary,Laura,11,16,0.04,West Bengal
+15-07-2018,Projector,Laura,20,150,0.04,Bihar
+15-07-2018,White Board,John,18,40,0.11,Goa
+15-07-2018,White Board,Laura,2,40,0.03,Karnataka
+15-07-2018,Diary,Stacey,15,16,0.12,Gujarat
+15-07-2018,Diary,Laura,9,16,0.05,Jharkhand
+15-07-2018,White Board,Bob,7,40,0.05,Meghalaya
+15-07-2018,Projector,Bob,4,150,0.05,Uttar Pradesh
+15-07-2018,Office Chair,John,15,230,0.05,Maharashtra
+16-07-2018,White Board,Mark,12,40,0.1,Delhi
+16-07-2018,Office Chair,Stacey,23,230,0.06,West Bengal
+16-07-2018,Diary,John,11,16,0.09,Bihar
+16-07-2018,Projector,John,9,150,0.1,Goa
+16-07-2018,Printer,John,18,80,0.02,Karnataka
+16-07-2018,White Board,Bob,23,40,0.04,Gujarat
+16-07-2018,Diary,Bob,17,16,0.1,Jharkhand
+16-07-2018,Projector,Bob,17,150,0.02,Haryana
+16-07-2018,Printer,Stacey,21,80,0.02,Kerala
+16-07-2018,White Board,Stacey,11,40,0.06,Meghalaya
+16-07-2018,White Board,John,19,40,0.04,Uttar Pradesh
+16-07-2018,White Board,John,23,40,0.03,Maharashtra
+16-07-2018,Office Chair,Mark,14,230,0.05,Delhi
+16-07-2018,White Board,Laura,18,40,0.03,West Bengal
+16-07-2018,Projector,Mark,2,150,0.09,Bihar
+16-07-2018,Office Chair,Mark,7,230,0.05,Goa
+17-07-2018,Projector,Laura,9,150,0.02,Karnataka
+17-07-2018,White Board,Bob,3,40,0.03,Gujarat
+17-07-2018,Printer,Stacey,2,80,0.08,Jharkhand
+17-07-2018,Diary,Bob,19,16,0.02,Haryana
+17-07-2018,Diary,Mark,21,16,0.02,Kerala
+17-07-2018,Printer,Stacey,21,80,0.05,Meghalaya
+17-07-2018,Office Chair,Bob,3,230,0.1,Uttar Pradesh
+17-07-2018,White Board,Laura,4,40,0.11,Maharashtra
+17-07-2018,Projector,Bob,7,150,0.03,Delhi
+17-07-2018,Diary,Laura,11,16,0.12,West Bengal
+17-07-2018,Printer,John,17,80,0.07,Bihar
+17-07-2018,Diary,Stacey,5,16,0.09,Goa
+17-07-2018,Diary,Bob,13,16,0.07,Karnataka
+17-07-2018,Printer,Bob,9,80,0.02,Gujarat
+18-07-2018,Printer,Bob,9,80,0.02,Jharkhand
+18-07-2018,Printer,Stacey,22,80,0.03,Haryana
+18-07-2018,Projector,John,13,150,0.05,Kerala
+18-07-2018,Printer,John,14,80,0.08,Meghalaya
+18-07-2018,Printer,John,6,80,0.07,Uttar Pradesh
+18-07-2018,Printer,John,16,80,0.03,Maharashtra
+18-07-2018,Projector,Laura,22,150,0.09,Delhi
+18-07-2018,Projector,Stacey,4,150,0.12,West Bengal
+18-07-2018,Office Chair,Bob,7,230,0.05,Bihar
+18-07-2018,Projector,Stacey,20,150,0.1,Goa
+18-07-2018,Office Chair,Stacey,8,230,0.05,Karnataka
+19-07-2018,White Board,Stacey,9,40,0.06,Gujarat
+19-07-2018,Office Chair,Stacey,19,230,0.06,Jharkhand
+19-07-2018,White Board,Stacey,22,40,0.01,Haryana
+19-07-2018,White Board,John,22,40,0.02,Kerala
+19-07-2018,Printer,Bob,10,80,0.06,Meghalaya
+19-07-2018,White Board,Stacey,7,40,0.11,Uttar Pradesh
+19-07-2018,Office Chair,John,7,230,0.08,Maharashtra
+19-07-2018,Diary,John,18,16,0.11,Delhi
+19-07-2018,Office Chair,Laura,14,230,0.12,West Bengal
+19-07-2018,White Board,Mark,21,40,0.03,Bihar
+19-07-2018,Projector,John,3,150,0.03,Goa
+19-07-2018,Printer,John,12,80,0.04,Karnataka
+20-07-2018,Projector,Stacey,6,150,0.03,Gujarat
+20-07-2018,White Board,Laura,20,40,0.01,Jharkhand
+20-07-2018,Office Chair,John,3,230,0.06,Goa
+20-07-2018,Office Chair,Stacey,3,230,0.01,Karnataka
+20-07-2018,White Board,John,20,40,0.04,Gujarat
+20-07-2018,Printer,Laura,16,80,0.02,Jharkhand
+20-07-2018,Projector,John,8,150,0.09,Goa
+21-07-2018,Office Chair,Mark,7,230,0.01,Karnataka
+21-07-2018,Projector,Mark,23,150,0.11,Gujarat
+21-07-2018,White Board,Bob,16,40,0.09,Jharkhand
+21-07-2018,White Board,Bob,20,40,0.1,Goa
+21-07-2018,White Board,Mark,18,40,0.08,Karnataka
+21-07-2018,Printer,Bob,22,80,0.09,Gujarat
+21-07-2018,Projector,Mark,22,150,0.02,Jharkhand
+21-07-2018,Projector,Mark,20,150,0.09,Goa
+21-07-2018,Diary,John,10,16,0.08,Karnataka
+21-07-2018,White Board,Laura,12,40,0.02,Gujarat
+21-07-2018,Projector,John,4,150,0.1,Jharkhand
+21-07-2018,Printer,Laura,5,80,0.09,Goa
+21-07-2018,White Board,John,11,40,0.04,Karnataka
+21-07-2018,Projector,Mark,13,150,0.08,Gujarat
+21-07-2018,Printer,Stacey,19,80,0.02,Jharkhand
+21-07-2018,Office Chair,Mark,7,230,0.01,Goa
+22-07-2018,Printer,Bob,16,80,0.09,Karnataka
+22-07-2018,Office Chair,John,7,230,0.02,Gujarat
+22-07-2018,White Board,John,5,40,0.06,Jharkhand
+22-07-2018,Projector,Laura,9,150,0.06,Goa
+22-07-2018,White Board,Bob,20,40,0.07,Karnataka
+22-07-2018,Diary,Mark,20,16,0.06,Gujarat
+22-07-2018,White Board,Bob,5,40,0.03,Jharkhand
+23-07-2018,Printer,Stacey,7,80,0.07,Goa
+23-07-2018,Diary,Bob,22,16,0.12,Karnataka
+23-07-2018,Diary,Bob,11,16,0.12,Gujarat
+23-07-2018,Office Chair,Stacey,17,230,0.12,Jharkhand
+23-07-2018,Printer,John,7,80,0.02,Goa
+23-07-2018,Diary,Mark,5,16,0.11,Karnataka
+23-07-2018,Projector,Bob,18,150,0.12,Gujarat
+23-07-2018,White Board,Bob,10,40,0.03,Jharkhand
+23-07-2018,White Board,Bob,14,40,0.11,Goa
+23-07-2018,White Board,Bob,16,40,0.09,Karnataka
+24-07-2018,White Board,Stacey,23,40,0.06,Gujarat
+24-07-2018,Office Chair,Stacey,8,230,0.05,Jharkhand
+24-07-2018,Diary,Stacey,14,16,0.12,Goa
+24-07-2018,Printer,John,17,80,0.09,Karnataka
+24-07-2018,Projector,Laura,11,150,0.11,Gujarat
+24-07-2018,White Board,Stacey,15,40,0.03,Jharkhand
+24-07-2018,Printer,Bob,9,80,0.07,Goa
+24-07-2018,Office Chair,Mark,22,230,0.04,Karnataka
+24-07-2018,Office Chair,Mark,11,230,0.1,Gujarat
+24-07-2018,White Board,Laura,11,40,0.12,Jharkhand
+24-07-2018,White Board,Stacey,9,40,0.06,Goa
+25-07-2018,White Board,Stacey,13,40,0.09,Karnataka
+25-07-2018,White Board,Mark,4,40,0.12,Gujarat
+25-07-2018,Projector,John,22,150,0.05,Jharkhand
+25-07-2018,White Board,Bob,21,40,0.01,Goa
+25-07-2018,Diary,John,16,16,0.03,Karnataka
+25-07-2018,Printer,Stacey,16,80,0.07,Gujarat
+25-07-2018,Printer,Mark,15,80,0.12,Jharkhand
+25-07-2018,Projector,John,20,150,0.03,Goa
+25-07-2018,White Board,Stacey,13,40,0.06,Karnataka
+25-07-2018,Diary,Bob,3,16,0.06,Gujarat
+25-07-2018,Diary,Laura,11,16,0.04,Jharkhand
+26-07-2018,White Board,Bob,16,40,0.09,Goa
+26-07-2018,White Board,Laura,4,40,0.06,Karnataka
+26-07-2018,White Board,Laura,20,40,0.01,Gujarat
+26-07-2018,White Board,Laura,4,40,0.1,Jharkhand
+26-07-2018,Printer,Mark,14,80,0.06,Goa
+26-07-2018,Projector,Mark,15,150,0.02,Karnataka
+26-07-2018,Printer,Laura,14,80,0.1,Gujarat
+26-07-2018,Projector,John,20,150,0.04,Jharkhand
+26-07-2018,Printer,Bob,22,80,0.1,Goa
+26-07-2018,Office Chair,Bob,20,230,0.09,Karnataka
+26-07-2018,Office Chair,Laura,12,230,0.03,Gujarat
+27-07-2018,Printer,John,21,80,0.04,Jharkhand
+27-07-2018,White Board,Mark,15,40,0.04,Goa
+27-07-2018,Printer,Stacey,16,80,0.1,Karnataka
+27-07-2018,Office Chair,Bob,17,230,0.11,Gujarat
+27-07-2018,Office Chair,Bob,5,230,0.12,Jharkhand
+27-07-2018,Diary,John,20,16,0.01,Goa
+27-07-2018,Office Chair,John,5,230,0.1,Karnataka
+27-07-2018,White Board,Mark,8,40,0.09,Gujarat
+27-07-2018,Diary,John,7,16,0.02,Jharkhand
+27-07-2018,Projector,Stacey,15,150,0.08,Goa
+27-07-2018,Office Chair,Bob,20,230,0.11,Karnataka
+27-07-2018,Diary,Mark,4,16,0.09,Gujarat
+27-07-2018,White Board,Stacey,11,40,0.09,Jharkhand
+27-07-2018,Projector,Laura,15,150,0.05,Goa
+27-07-2018,Office Chair,Laura,5,230,0.01,Karnataka
+27-07-2018,Office Chair,Laura,14,230,0.03,Gujarat
+27-07-2018,White Board,Bob,23,40,0.05,Jharkhand
+27-07-2018,Printer,Stacey,22,80,0.03,Goa
+28-07-2018,Office Chair,Laura,20,230,0.06,Karnataka
+28-07-2018,Office Chair,Mark,15,230,0.09,Gujarat
+28-07-2018,Projector,Laura,18,150,0.06,Jharkhand
+28-07-2018,Office Chair,John,3,230,0.11,Goa
+28-07-2018,Projector,Bob,11,150,0.09,Karnataka
+28-07-2018,Office Chair,John,11,230,0.02,Gujarat
+28-07-2018,Office Chair,Bob,13,230,0.06,Jharkhand
+29-07-2018,Printer,Stacey,11,80,0.01,Goa
+29-07-2018,Printer,Bob,17,80,0.07,Karnataka
+29-07-2018,Projector,Bob,15,150,0.07,Gujarat
+29-07-2018,Diary,Bob,14,16,0.06,Jharkhand
+29-07-2018,Diary,Mark,4,16,0.07,Goa
+29-07-2018,Projector,Bob,23,150,0.08,Karnataka
+29-07-2018,Printer,Laura,10,80,0.11,Gujarat
+29-07-2018,Office Chair,Laura,7,230,0.01,Jharkhand
+29-07-2018,Office Chair,John,16,230,0.07,Goa
+29-07-2018,Diary,Bob,17,16,0.08,Karnataka
+30-07-2018,Printer,Bob,6,80,0.09,Gujarat
+30-07-2018,Projector,Laura,22,150,0.04,Jharkhand
+30-07-2018,White Board,Bob,20,40,0.03,Goa
+30-07-2018,Projector,Mark,16,150,0.08,Karnataka
+30-07-2018,Printer,Mark,5,80,0.07,Gujarat
+30-07-2018,Projector,Stacey,6,150,0.03,Jharkhand
+31-07-2018,Printer,Mark,9,80,0.03,Goa
+31-07-2018,Printer,John,8,80,0.08,Karnataka
+31-07-2018,Office Chair,Stacey,8,230,0.01,Gujarat
+31-07-2018,Diary,Bob,12,16,0.04,Jharkhand
+31-07-2018,Diary,Stacey,18,16,0.04,Goa
+01-07-2018,Diary,Stacey,10,16,0.01,Karnataka
+01-07-2018,Diary,Stacey,14,16,0.12,Gujarat
+01-07-2018,White Board,Laura,6,40,0.06,Jharkhand
+01-07-2018,White Board,Stacey,13,40,0.09,Goa
+01-07-2018,Diary,Stacey,10,16,0.04,Karnataka
+01-07-2018,Printer,Mark,14,80,0.11,Gujarat
+01-07-2018,White Board,Mark,4,40,0.06,Jharkhand
+01-07-2018,White Board,Laura,11,40,0.05,Goa
+01-07-2018,Diary,Laura,14,16,0.01,Karnataka
+01-07-2018,Projector,John,20,150,0.04,Gujarat
+01-07-2018,White Board,Stacey,9,40,0.06,Jharkhand
+01-07-2018,Projector,Laura,18,150,0.06,Goa
+01-07-2018,Office Chair,Bob,17,230,0.11,Karnataka
+02-07-2018,White Board,John,20,40,0.04,Gujarat
+02-07-2018,White Board,John,23,40,0.03,Jharkhand
+02-07-2018,Office Chair,Bob,21,230,0.05,Goa
+02-07-2018,Printer,Laura,6,80,0.09,Karnataka
+02-07-2018,Diary,John,20,16,0.01,Gujarat
+02-07-2018,White Board,Mark,8,40,0.09,Jharkhand
+02-07-2018,Office Chair,Mark,15,230,0.09,Goa
+03-07-2018,Printer,Stacey,21,80,0.02,Karnataka
+03-07-2018,Printer,Stacey,19,80,0.02,Gujarat
+03-07-2018,Diary,John,7,16,0.08,Jharkhand
+03-07-2018,White Board,Bob,11,40,0.05,Goa
+03-07-2018,Office Chair,Stacey,8,230,0.05,Karnataka
+03-07-2018,Printer,John,18,80,0.02,Gujarat
+03-07-2018,White Board,John,7,40,0.1,Jharkhand
+04-07-2018,Diary,John,16,16,0.03,Goa
+04-07-2018,Printer,John,8,80,0.08,Karnataka
+04-07-2018,Office Chair,Bob,22,230,0.1,Gujarat
+04-07-2018,Office Chair,Bob,3,230,0.1,Jharkhand
+04-07-2018,Office Chair,Bob,20,230,0.11,Goa
+04-07-2018,Diary,Laura,12,16,0.03,Karnataka
+04-07-2018,White Board,Bob,20,40,0.07,Gujarat
+04-07-2018,Office Chair,John,3,230,0.06,Jharkhand
+04-07-2018,Printer,Stacey,16,80,0.07,Goa
+05-07-2018,White Board,Bob,3,40,0.03,Karnataka
+05-07-2018,Office Chair,Laura,12,230,0.03,Gujarat
+05-07-2018,White Board,Stacey,22,40,0.01,Jharkhand
+05-07-2018,White Board,Mark,19,40,0.1,Goa
+05-07-2018,Printer,Mark,21,80,0.04,Karnataka
+05-07-2018,Printer,Mark,2,80,0.04,Gujarat
+05-07-2018,Projector,Mark,15,150,0.02,Jharkhand
+06-07-2018,White Board,Mark,14,40,0.06,Goa
+06-07-2018,Printer,Stacey,7,80,0.07,Karnataka
+06-07-2018,Printer,Laura,7,80,0.05,Gujarat
+06-07-2018,Projector,Mark,10,150,0.01,Jharkhand
+06-07-2018,Printer,Laura,10,80,0.08,Goa
+06-07-2018,Printer,Stacey,15,80,0.08,Karnataka
+06-07-2018,Office Chair,Stacey,18,230,0.01,Gujarat
+06-07-2018,Printer,John,8,80,0.09,Jharkhand
+06-07-2018,Diary,Laura,6,16,0.01,Goa
+06-07-2018,Office Chair,Mark,9,230,0.03,Karnataka
+07-07-2018,White Board,Stacey,15,40,0.03,Gujarat
+07-07-2018,White Board,Mark,15,40,0.04,Jharkhand
+07-07-2018,Diary,Bob,11,16,0.12,Goa
+07-07-2018,Diary,John,12,16,0.11,Maharashtra
+07-07-2018,Diary,Stacey,18,16,0.04,Gujarat
+07-07-2018,White Board,Laura,20,40,0.01,Maharashtra
+07-07-2018,Projector,Bob,7,150,0.03,Gujarat
+07-07-2018,White Board,Stacey,23,40,0.06,Maharashtra
+07-07-2018,Printer,John,7,80,0.02,Gujarat
+07-07-2018,Projector,Mark,16,150,0.05,Maharashtra
+07-07-2018,Office Chair,Mark,6,230,0.1,Gujarat
+08-07-2018,White Board,Bob,7,40,0.12,Maharashtra
+08-07-2018,Printer,Laura,23,80,0.05,Gujarat
+08-07-2018,Printer,Stacey,16,80,0.1,Maharashtra
+08-07-2018,Printer,John,16,80,0.03,Gujarat
+08-07-2018,Printer,Bob,22,80,0.09,Maharashtra
+08-07-2018,Diary,John,18,16,0.05,Gujarat
+08-07-2018,Office Chair,Bob,5,230,0.12,Maharashtra
+08-07-2018,Projector,Bob,7,150,0.02,Gujarat
+08-07-2018,White Board,Laura,2,40,0.03,Maharashtra
+08-07-2018,White Board,Stacey,11,40,0.06,Gujarat
+08-07-2018,Printer,Stacey,7,80,0.02,Maharashtra
+09-07-2018,White Board,Laura,4,40,0.11,Gujarat
+09-07-2018,White Board,Laura,2,40,0.02,Maharashtra
+09-07-2018,Office Chair,Stacey,23,230,0.06,Gujarat
+09-07-2018,Printer,Bob,21,80,0.09,Maharashtra
+09-07-2018,Printer,Bob,9,80,0.06,Gujarat
+09-07-2018,Printer,Bob,22,80,0.11,Maharashtra
+10-07-2018,Office Chair,Laura,15,230,0.11,Gujarat
+10-07-2018,White Board,Mark,7,40,0.01,Maharashtra
+10-07-2018,Projector,Bob,17,150,0.02,Gujarat
+10-07-2018,Projector,Mark,22,150,0.02,Maharashtra
+10-07-2018,Office Chair,Laura,10,230,0.02,Gujarat
+10-07-2018,White Board,Bob,21,40,0.01,Maharashtra
+10-07-2018,Office Chair,Laura,5,230,0.1,Gujarat
+10-07-2018,Office Chair,Bob,13,230,0.06,Maharashtra
+10-07-2018,Projector,John,23,150,0.1,Gujarat
+10-07-2018,Projector,John,20,150,0.03,Maharashtra
+11-07-2018,Office Chair,John,3,230,0.11,Gujarat
+11-07-2018,Projector,Mark,16,150,0.08,Maharashtra
+11-07-2018,Diary,Bob,14,16,0.06,Gujarat
+11-07-2018,Projector,Mark,16,150,0.03,Maharashtra
+11-07-2018,Diary,Bob,19,16,0.02,Gujarat
+11-07-2018,Printer,Bob,6,80,0.09,Maharashtra
+11-07-2018,Printer,Bob,9,80,0.07,Gujarat
+11-07-2018,Projector,Mark,20,150,0.09,Maharashtra
+11-07-2018,Printer,Laura,10,80,0.11,Gujarat
+11-07-2018,Diary,John,4,16,0.12,Maharashtra
+11-07-2018,White Board,Bob,16,40,0.11,Gujarat
+12-07-2018,Printer,Mark,5,80,0.04,Maharashtra
+12-07-2018,Diary,Laura,11,16,0.04,Gujarat
+12-07-2018,Projector,John,17,150,0.12,Maharashtra
+12-07-2018,Office Chair,Mark,19,230,0.11,Gujarat
+12-07-2018,Printer,John,21,80,0.04,Maharashtra
+12-07-2018,Office Chair,Mark,7,230,0.01,Gujarat
+12-07-2018,White Board,Laura,2,40,0.03,Maharashtra
+12-07-2018,Projector,John,7,150,0.02,Gujarat
+13-07-2018,Printer,Laura,16,80,0.04,Maharashtra
+13-07-2018,White Board,Mark,4,40,0.12,Gujarat
+13-07-2018,Diary,John,22,16,0.01,Maharashtra
+13-07-2018,White Board,Stacey,18,40,0.06,Gujarat
+13-07-2018,Printer,Laura,6,80,0.01,Maharashtra
+13-07-2018,Office Chair,Laura,2,230,0.09,Gujarat
+14-07-2018,Projector,Bob,11,150,0.09,Maharashtra
+14-07-2018,Projector,Stacey,15,150,0.08,Gujarat
+14-07-2018,Printer,John,17,80,0.09,Maharashtra
+14-07-2018,Projector,Bob,13,150,0.11,Gujarat
+14-07-2018,White Board,Stacey,7,40,0.07,Maharashtra
+14-07-2018,Office Chair,Stacey,3,230,0.01,Gujarat
+14-07-2018,White Board,Laura,12,40,0.02,Maharashtra
+14-07-2018,Projector,Laura,11,150,0.11,Gujarat
+14-07-2018,White Board,Mark,21,40,0.03,Maharashtra
+14-07-2018,Projector,John,22,150,0.07,Gujarat
+14-07-2018,White Board,Laura,20,40,0.01,Maharashtra
+15-07-2018,Diary,Bob,22,16,0.12,Gujarat
+15-07-2018,White Board,Laura,4,40,0.1,Maharashtra
+15-07-2018,Office Chair,Stacey,2,230,0.09,Gujarat
+15-07-2018,White Board,John,22,40,0.02,Maharashtra
+15-07-2018,White Board,Mark,4,40,0.03,Gujarat
+15-07-2018,Diary,Mark,5,16,0.11,Maharashtra
+15-07-2018,Printer,Stacey,2,80,0.08,Gujarat
+15-07-2018,Diary,Laura,9,16,0.05,Maharashtra
+15-07-2018,Office Chair,Laura,6,230,0.05,Gujarat
+15-07-2018,Projector,Stacey,22,150,0.05,Maharashtra
+16-07-2018,Office Chair,Stacey,8,230,0.01,Gujarat
+16-07-2018,Projector,John,22,150,0.05,Maharashtra
+16-07-2018,White Board,John,5,40,0.06,Gujarat
+16-07-2018,Projector,Stacey,20,150,0.1,Maharashtra
+16-07-2018,Printer,Stacey,22,80,0.03,Gujarat
+16-07-2018,Diary,John,11,16,0.09,Maharashtra
+16-07-2018,Diary,Mark,22,16,0.01,Gujarat
+16-07-2018,White Board,Mark,23,40,0.06,Maharashtra
+16-07-2018,Printer,Laura,14,80,0.1,Gujarat
+16-07-2018,White Board,John,18,40,0.06,Maharashtra
+17-07-2018,Projector,Stacey,7,150,0.05,Uttar Pradesh
+17-07-2018,White Board,Stacey,15,40,0.03,Maharashtra
+17-07-2018,Diary,John,7,16,0.02,Delhi
+17-07-2018,Diary,Stacey,15,16,0.12,West Bengal
+17-07-2018,White Board,John,5,40,0.09,Bihar
+17-07-2018,White Board,Bob,20,40,0.03,Goa
+17-07-2018,Office Chair,Stacey,11,230,0.12,Karnataka
+17-07-2018,Diary,Bob,17,16,0.08,Gujarat
+18-07-2018,Diary,John,18,16,0.11,Jharkhand
+18-07-2018,Office Chair,Stacey,2,230,0.08,Haryana
+18-07-2018,Diary,Laura,17,16,0.05,Kerala
+18-07-2018,Printer,Stacey,16,80,0.05,Meghalaya
+18-07-2018,Office Chair,Mark,14,230,0.05,Uttar Pradesh
+18-07-2018,White Board,Laura,13,40,0.02,Maharashtra
+18-07-2018,Office Chair,Mark,7,230,0.08,Delhi
+18-07-2018,White Board,Stacey,7,40,0.11,West Bengal
+18-07-2018,Office Chair,Laura,12,230,0.06,Bihar
+18-07-2018,White Board,John,19,40,0.04,Uttar Pradesh
+19-07-2018,Office Chair,Laura,20,230,0.06,Maharashtra
+19-07-2018,White Board,Bob,23,40,0.04,Delhi
+19-07-2018,Printer,Bob,16,80,0.05,West Bengal
+19-07-2018,Projector,Mark,23,150,0.11,Bihar
+19-07-2018,Diary,Mark,4,16,0.07,Goa
+19-07-2018,Office Chair,John,8,230,0.03,Karnataka
+19-07-2018,Printer,Mark,17,80,0.03,Gujarat
+19-07-2018,Printer,Stacey,10,80,0.1,Jharkhand
+19-07-2018,Diary,John,20,16,0.11,Haryana
+20-07-2018,Office Chair,Stacey,19,230,0.06,Kerala
+20-07-2018,White Board,Laura,18,40,0.03,Meghalaya
+20-07-2018,Printer,Mark,16,80,0.04,Uttar Pradesh
+20-07-2018,Printer,Stacey,8,80,0.06,Maharashtra
+20-07-2018,Projector,Stacey,4,150,0.12,Delhi
+20-07-2018,Office Chair,Laura,15,230,0.04,West Bengal
+21-07-2018,Diary,Mark,7,16,0.08,Bihar
+21-07-2018,White Board,John,18,40,0.11,Uttar Pradesh
+21-07-2018,White Board,Laura,4,40,0.06,Maharashtra
+21-07-2018,White Board,Bob,16,40,0.09,Delhi
+21-07-2018,White Board,Mark,18,40,0.08,West Bengal
+21-07-2018,White Board,John,9,40,0.01,Bihar
+21-07-2018,Office Chair,Stacey,16,230,0.11,Goa
+21-07-2018,Diary,Laura,12,16,0.11,Karnataka
+21-07-2018,Printer,Mark,2,80,0.07,Gujarat
+21-07-2018,White Board,John,2,40,0.12,Jharkhand
+22-07-2018,Projector,John,13,150,0.05,Haryana
+22-07-2018,Printer,John,14,80,0.08,Kerala
+22-07-2018,Projector,Stacey,6,150,0.03,Meghalaya
+22-07-2018,Printer,Stacey,23,80,0.11,Uttar Pradesh
+22-07-2018,Printer,Stacey,21,80,0.05,Maharashtra
+22-07-2018,Diary,Laura,3,16,0.05,Delhi
+22-07-2018,Diary,Mark,21,16,0.02,West Bengal
+22-07-2018,Printer,Stacey,4,80,0.11,Bihar
+22-07-2018,Projector,Bob,23,150,0.08,Uttar Pradesh
+22-07-2018,Diary,Bob,23,16,0.01,Maharashtra
+22-07-2018,White Board,Stacey,22,40,0.01,Delhi
+23-07-2018,Projector,John,8,150,0.09,West Bengal
+23-07-2018,Projector,John,20,150,0.01,Bihar
+23-07-2018,Office Chair,Mark,22,230,0.11,Goa
+23-07-2018,Diary,Laura,23,16,0.11,Karnataka
+23-07-2018,Printer,John,6,80,0.01,Gujarat
+23-07-2018,Diary,John,7,16,0.12,Jharkhand
+23-07-2018,Printer,Mark,10,80,0.11,Haryana
+23-07-2018,Office Chair,John,9,230,0.07,Kerala
+24-07-2018,White Board,Mark,12,40,0.1,Meghalaya
+24-07-2018,Diary,Bob,17,16,0.1,Uttar Pradesh
+24-07-2018,Projector,Laura,22,150,0.04,Maharashtra
+24-07-2018,Projector,Laura,11,150,0.05,Delhi
+24-07-2018,Printer,Bob,9,80,0.02,West Bengal
+24-07-2018,Printer,Bob,13,80,0.05,Bihar
+24-07-2018,White Board,Bob,20,40,0.1,Uttar Pradesh
+24-07-2018,White Board,Mark,15,40,0.02,Maharashtra
+25-07-2018,Projector,Bob,15,150,0.07,Delhi
+25-07-2018,Printer,Bob,16,80,0.09,West Bengal
+25-07-2018,Office Chair,John,16,230,0.07,Bihar
+25-07-2018,Printer,Mark,14,80,0.11,Goa
+25-07-2018,Printer,Bob,17,80,0.07,Karnataka
+25-07-2018,Printer,Laura,16,80,0.02,Gujarat
+25-07-2018,Diary,John,21,16,0.09,Jharkhand
+25-07-2018,Projector,John,9,150,0.1,Haryana
+25-07-2018,Projector,Stacey,3,150,0.01,Kerala
+26-07-2018,Printer,Mark,14,80,0.06,Meghalaya
+26-07-2018,Projector,Bob,4,150,0.05,Uttar Pradesh
+26-07-2018,Diary,Mark,20,16,0.06,Maharashtra
+26-07-2018,Office Chair,Laura,7,230,0.01,Delhi
+26-07-2018,Printer,Mark,9,80,0.03,West Bengal
+26-07-2018,White Board,Stacey,4,40,0.05,Bihar
+26-07-2018,Printer,John,6,80,0.07,Uttar Pradesh
+26-07-2018,Diary,Laura,8,16,0.03,Maharashtra
+26-07-2018,Diary,John,10,16,0.08,Delhi
+26-07-2018,Diary,Stacey,22,16,0.03,West Bengal
+26-07-2018,Printer,Stacey,11,80,0.01,Bihar
+26-07-2018,Diary,Stacey,7,16,0.08,Goa
+27-07-2018,Diary,Laura,11,16,0.12,Karnataka
+27-07-2018,White Board,Bob,7,40,0.05,Gujarat
+27-07-2018,Projector,Laura,9,150,0.06,Jharkhand
+27-07-2018,Office Chair,John,20,230,0.04,Haryana
+27-07-2018,Projector,Laura,9,150,0.02,Kerala
+27-07-2018,Printer,Mark,5,80,0.07,Meghalaya
+27-07-2018,Projector,Laura,20,150,0.04,Uttar Pradesh
+27-07-2018,Projector,Stacey,15,150,0.05,Maharashtra
+27-07-2018,Printer,John,20,80,0.01,Delhi
+28-07-2018,Office Chair,Mark,12,230,0.03,West Bengal
+28-07-2018,White Board,Bob,20,40,0.05,Bihar
+28-07-2018,White Board,Bob,4,40,0.09,Uttar Pradesh
+28-07-2018,Diary,Laura,6,16,0.07,Maharashtra
+28-07-2018,Printer,Mark,13,80,0.06,Delhi
+28-07-2018,Projector,John,4,150,0.1,West Bengal
+28-07-2018,Projector,Stacey,9,150,0.02,Bihar
+28-07-2018,Projector,John,11,150,0.05,Goa
+28-07-2018,Diary,Laura,6,16,0.06,Karnataka
+29-07-2018,Office Chair,Laura,14,230,0.12,Gujarat
+29-07-2018,Printer,Mark,15,80,0.12,Jharkhand
+29-07-2018,Office Chair,Stacey,17,230,0.12,Haryana
+29-07-2018,Projector,John,5,150,0.11,Kerala
+29-07-2018,Printer,Bob,10,80,0.06,Meghalaya
+29-07-2018,Printer,John,9,80,0.04,Uttar Pradesh
+29-07-2018,White Board,Bob,16,40,0.09,Maharashtra
+29-07-2018,Office Chair,John,7,230,0.08,Delhi
+29-07-2018,Printer,Stacey,17,80,0.05,West Bengal
+29-07-2018,Office Chair,John,11,230,0.02,Bihar
+30-07-2018,White Board,John,15,40,0.06,Uttar Pradesh
+31-07-2018,Office Chair,John,7,230,0.02,Maharashtra
+31-07-2018,Printer,Laura,20,80,0.07,Delhi
+31-07-2018,Printer,Mark,3,80,0.02,West Bengal
+31-07-2018,Projector,Laura,2,150,0.02,Bihar
+31-07-2018,Projector,Laura,22,150,0.09,Goa
+31-07-2018,Office Chair,John,5,230,0.1,Karnataka
+31-07-2018,Diary,Bob,12,16,0.04,Gujarat
+31-07-2018,White Board,Stacey,6,40,0.07,Jharkhand
+31-07-2018,Diary,Bob,15,16,0.01,Haryana
+01-07-2018,Projector,Bob,13,150,0.11,Kerala
+01-07-2018,White Board,Mark,8,40,0.09,Meghalaya
+01-07-2018,White Board,Stacey,7,40,0.07,Uttar Pradesh
+01-07-2018,White Board,Mark,18,40,0.08,Maharashtra
+01-07-2018,Office Chair,Stacey,19,230,0.06,Delhi
+01-07-2018,Projector,John,4,150,0.1,West Bengal
+02-07-2018,Printer,Bob,9,80,0.06,Bihar
+02-07-2018,Printer,Laura,16,80,0.02,Uttar Pradesh
+02-07-2018,Office Chair,Mark,15,230,0.09,Maharashtra
+02-07-2018,Diary,Bob,15,16,0.01,Delhi
+02-07-2018,Office Chair,John,7,230,0.02,West Bengal
+02-07-2018,Diary,Laura,23,16,0.11,Bihar
+02-07-2018,White Board,Bob,20,40,0.05,Goa
+03-07-2018,Office Chair,Mark,9,230,0.03,Karnataka
+03-07-2018,White Board,Stacey,23,40,0.06,Gujarat
+03-07-2018,White Board,Stacey,4,40,0.05,Jharkhand
+03-07-2018,Projector,John,13,150,0.05,Haryana
+03-07-2018,Office Chair,Mark,7,230,0.01,Kerala
+03-07-2018,Office Chair,Mark,7,230,0.08,Meghalaya
+03-07-2018,Office Chair,Laura,15,230,0.04,Uttar Pradesh
+03-07-2018,White Board,Stacey,15,40,0.03,Maharashtra
+03-07-2018,White Board,Laura,2,40,0.03,Delhi
+03-07-2018,Projector,Laura,2,150,0.02,West Bengal
+04-07-2018,Office Chair,John,3,230,0.11,Bihar
+04-07-2018,White Board,Laura,4,40,0.06,Uttar Pradesh
+04-07-2018,White Board,Stacey,13,40,0.06,Maharashtra
+04-07-2018,Diary,Stacey,15,16,0.12,Delhi
+04-07-2018,Printer,John,14,80,0.08,West Bengal
+04-07-2018,Diary,John,7,16,0.08,Bihar
+04-07-2018,Projector,Mark,13,150,0.02,Goa
+04-07-2018,Projector,Laura,9,150,0.02,Karnataka
+04-07-2018,White Board,John,9,40,0.01,Gujarat
+05-07-2018,Printer,Bob,9,80,0.07,Jharkhand
+05-07-2018,Office Chair,Mark,22,230,0.11,Haryana
+05-07-2018,Projector,Mark,15,150,0.02,Kerala
+05-07-2018,Office Chair,Bob,5,230,0.12,Meghalaya
+05-07-2018,White Board,Laura,20,40,0.01,Uttar Pradesh
+05-07-2018,White Board,John,23,40,0.03,Maharashtra
+05-07-2018,Printer,Bob,16,80,0.05,Delhi
+05-07-2018,Office Chair,Laura,18,230,0.01,West Bengal
+05-07-2018,White Board,Bob,23,40,0.05,Bihar
+05-07-2018,Diary,Stacey,5,16,0.09,Uttar Pradesh
+05-07-2018,White Board,John,22,40,0.02,Maharashtra
+06-07-2018,Projector,John,23,150,0.1,Delhi
+06-07-2018,Office Chair,Mark,22,230,0.04,West Bengal
+06-07-2018,Printer,Stacey,16,80,0.07,Bihar
+06-07-2018,Projector,Laura,22,150,0.09,Goa
+06-07-2018,Printer,Laura,5,80,0.09,Karnataka
+06-07-2018,Printer,Stacey,16,80,0.1,Gujarat
+06-07-2018,Projector,Mark,23,150,0.11,Jharkhand
+06-07-2018,Diary,Mark,4,16,0.09,Haryana
+06-07-2018,Diary,Mark,4,16,0.07,Kerala
+06-07-2018,Diary,John,16,16,0.03,Meghalaya
+06-07-2018,White Board,Stacey,18,40,0.04,Uttar Pradesh
+06-07-2018,Printer,Stacey,21,80,0.02,Maharashtra
+06-07-2018,Printer,Bob,10,80,0.06,Delhi
+06-07-2018,Office Chair,Laura,7,230,0.01,West Bengal
+07-07-2018,Diary,Bob,11,16,0.12,Bihar
+07-07-2018,Printer,Stacey,10,80,0.1,Uttar Pradesh
+07-07-2018,White Board,Mark,23,40,0.06,Maharashtra
+07-07-2018,Projector,Bob,7,150,0.02,Delhi
+07-07-2018,Printer,John,17,80,0.07,West Bengal
+07-07-2018,Projector,Mark,20,150,0.09,Bihar
+07-07-2018,Office Chair,Stacey,23,230,0.06,Goa
+07-07-2018,Printer,Mark,16,80,0.04,Karnataka
+07-07-2018,Office Chair,Bob,22,230,0.1,Gujarat
+07-07-2018,Office Chair,Laura,15,230,0.11,Jharkhand
+07-07-2018,White Board,Mark,15,40,0.04,Haryana
+07-07-2018,Printer,Mark,2,80,0.07,Kerala
+08-07-2018,Projector,John,22,150,0.05,Meghalaya
+08-07-2018,White Board,Bob,20,40,0.07,Uttar Pradesh
+08-07-2018,Office Chair,Stacey,2,230,0.09,Maharashtra
+08-07-2018,White Board,Stacey,7,40,0.11,Delhi
+08-07-2018,Printer,Stacey,7,80,0.07,West Bengal
+08-07-2018,White Board,Stacey,9,40,0.06,Bihar
+08-07-2018,White Board,John,18,40,0.11,Uttar Pradesh
+08-07-2018,Office Chair,John,20,230,0.04,Maharashtra
+08-07-2018,Printer,Laura,23,80,0.05,Delhi
+08-07-2018,Projector,Bob,11,150,0.09,West Bengal
+08-07-2018,Projector,John,17,150,0.12,Bihar
+08-07-2018,Office Chair,Bob,2,230,0.08,Goa
+08-07-2018,Printer,Laura,10,80,0.11,Karnataka
+09-07-2018,Diary,Stacey,22,16,0.03,Gujarat
+09-07-2018,Diary,Laura,9,16,0.05,Jharkhand
+09-07-2018,White Board,Laura,4,40,0.1,Haryana
+09-07-2018,Printer,Bob,9,80,0.02,Kerala
+09-07-2018,Office Chair,Laura,6,230,0.05,Meghalaya
+09-07-2018,Printer,Stacey,14,80,0.05,Uttar Pradesh
+09-07-2018,Diary,Bob,17,16,0.08,Maharashtra
+09-07-2018,Projector,Mark,22,150,0.02,Delhi
+09-07-2018,White Board,Bob,17,40,0.02,West Bengal
+09-07-2018,Printer,Bob,17,80,0.07,Bihar
+09-07-2018,Projector,Stacey,4,150,0.12,Uttar Pradesh
+09-07-2018,Diary,Stacey,14,16,0.12,Maharashtra
+09-07-2018,Diary,John,18,16,0.11,Delhi
+09-07-2018,Printer,Bob,22,80,0.09,West Bengal
+09-07-2018,Office Chair,Mark,12,230,0.03,Bihar
+09-07-2018,White Board,Mark,12,40,0.1,Goa
+10-07-2018,White Board,Bob,7,40,0.12,Karnataka
+10-07-2018,Printer,John,12,80,0.04,Gujarat
+10-07-2018,Diary,Bob,17,16,0.1,Jharkhand
+10-07-2018,Office Chair,Mark,6,230,0.1,Haryana
+10-07-2018,White Board,John,11,40,0.04,Kerala
+10-07-2018,Diary,Stacey,10,16,0.04,Meghalaya
+10-07-2018,Printer,John,6,80,0.07,Uttar Pradesh
+10-07-2018,White Board,Stacey,11,40,0.09,Maharashtra
+10-07-2018,Printer,Bob,16,80,0.09,Delhi
+10-07-2018,White Board,Stacey,13,40,0.09,West Bengal
+10-07-2018,Office Chair,John,5,230,0.1,Bihar
+11-07-2018,White Board,Bob,7,40,0.05,Uttar Pradesh
+11-07-2018,Printer,Laura,14,80,0.1,Maharashtra
+11-07-2018,Diary,Bob,12,16,0.04,Delhi
+11-07-2018,Office Chair,Laura,14,230,0.03,West Bengal
+11-07-2018,Printer,Bob,21,80,0.09,Bihar
+11-07-2018,Office Chair,Laura,5,230,0.1,Goa
+11-07-2018,White Board,Bob,16,40,0.09,Karnataka
+11-07-2018,Projector,Mark,15,150,0.12,Gujarat
+11-07-2018,Diary,Bob,23,16,0.01,Jharkhand
+11-07-2018,Diary,Mark,22,16,0.04,Haryana
+11-07-2018,Printer,John,20,80,0.01,Kerala
+11-07-2018,White Board,Stacey,6,40,0.07,Meghalaya
+12-07-2018,Projector,Mark,10,150,0.01,Uttar Pradesh
+12-07-2018,Printer,Stacey,17,80,0.05,Maharashtra
+12-07-2018,Projector,John,13,150,0.05,Delhi
+12-07-2018,Office Chair,Stacey,8,230,0.05,West Bengal
+12-07-2018,Diary,John,10,16,0.08,Bihar
+12-07-2018,White Board,Mark,4,40,0.06,Uttar Pradesh
+12-07-2018,White Board,Bob,18,40,0.06,Maharashtra
+12-07-2018,Projector,Stacey,15,150,0.05,Delhi
+12-07-2018,Projector,Stacey,3,150,0.01,West Bengal
+12-07-2018,Diary,John,12,16,0.11,Bihar
+13-07-2018,Printer,Bob,17,80,0.07,Goa
+13-07-2018,Office Chair,John,3,230,0.06,Karnataka
+13-07-2018,Printer,Laura,20,80,0.07,Gujarat
+13-07-2018,Office Chair,Mark,14,230,0.05,Jharkhand
+13-07-2018,White Board,Bob,16,40,0.09,Haryana
+13-07-2018,Diary,Mark,7,16,0.08,Kerala
+13-07-2018,White Board,Mark,19,40,0.1,Meghalaya
+13-07-2018,Office Chair,Stacey,7,230,0.06,Uttar Pradesh
+13-07-2018,White Board,Bob,20,40,0.03,Maharashtra
+13-07-2018,Diary,Laura,11,16,0.12,Delhi
+13-07-2018,Printer,Bob,16,80,0.09,West Bengal
+13-07-2018,Diary,John,21,16,0.09,Bihar
+13-07-2018,Diary,John,22,16,0.01,Uttar Pradesh
+13-07-2018,Office Chair,Stacey,23,230,0.06,Maharashtra
+13-07-2018,Projector,John,9,150,0.1,Delhi
+13-07-2018,Projector,Laura,9,150,0.06,West Bengal
+14-07-2018,Office Chair,John,9,230,0.07,Bihar
+14-07-2018,Printer,Laura,10,80,0.08,Goa
+14-07-2018,Diary,Laura,23,16,0.11,Karnataka
+14-07-2018,Printer,Stacey,22,80,0.03,Gujarat
+14-07-2018,Printer,Stacey,4,80,0.11,Jharkhand
+14-07-2018,Diary,John,22,16,0.06,Haryana
+14-07-2018,White Board,Mark,15,40,0.02,Kerala
+14-07-2018,White Board,Bob,7,40,0.04,Meghalaya
+14-07-2018,Diary,Bob,2,16,0.04,Uttar Pradesh
+14-07-2018,Printer,Stacey,7,80,0.02,Maharashtra
+15-07-2018,Diary,Bob,22,16,0.12,Delhi
+15-07-2018,White Board,Mark,21,40,0.03,West Bengal
+15-07-2018,Printer,John,6,80,0.01,Bihar
+15-07-2018,Printer,Bob,13,80,0.05,Uttar Pradesh
+15-07-2018,Printer,Stacey,11,80,0.01,Maharashtra
+15-07-2018,White Board,John,18,40,0.06,Delhi
+15-07-2018,Projector,Stacey,7,150,0.05,West Bengal
+15-07-2018,White Board,John,2,40,0.12,Bihar
+15-07-2018,Printer,Mark,14,80,0.06,Goa
+15-07-2018,Projector,Bob,7,150,0.03,Karnataka
+15-07-2018,Diary,Stacey,10,16,0.01,Gujarat
+16-07-2018,White Board,Mark,7,40,0.01,Jharkhand
+16-07-2018,Diary,Stacey,7,16,0.08,Haryana
+16-07-2018,Projector,Laura,15,150,0.05,Kerala
+16-07-2018,Printer,John,7,80,0.02,Meghalaya
+16-07-2018,White Board,Laura,6,40,0.06,Uttar Pradesh
+16-07-2018,Office Chair,John,3,230,0.06,Maharashtra
+16-07-2018,Projector,Laura,20,150,0.04,Delhi
+16-07-2018,Office Chair,Laura,20,230,0.06,West Bengal
+16-07-2018,Diary,Laura,14,16,0.01,Bihar
+16-07-2018,Projector,Laura,20,150,0.04,Uttar Pradesh
+16-07-2018,Printer,John,17,80,0.09,Maharashtra
+17-07-2018,Projector,Laura,20,150,0.12,Delhi
+17-07-2018,Diary,Laura,11,16,0.04,West Bengal
+17-07-2018,Office Chair,Bob,7,230,0.05,Bihar
+17-07-2018,White Board,Mark,14,40,0.06,Goa
+17-07-2018,Printer,Mark,13,80,0.06,Karnataka
+17-07-2018,Diary,Laura,17,16,0.05,Gujarat
+17-07-2018,Office Chair,Laura,12,230,0.03,Jharkhand
+17-07-2018,White Board,Mark,4,40,0.12,Haryana
+17-07-2018,Diary,John,20,16,0.01,Kerala
+17-07-2018,Printer,Stacey,8,80,0.06,Meghalaya
+17-07-2018,Printer,John,18,80,0.02,Uttar Pradesh
+17-07-2018,Diary,Laura,6,16,0.06,Maharashtra
+17-07-2018,Printer,John,9,80,0.04,Delhi
+18-07-2018,Printer,Laura,8,80,0.02,West Bengal
+18-07-2018,Projector,Stacey,6,150,0.03,Bihar
+18-07-2018,Diary,Stacey,14,16,0.12,Uttar Pradesh
+18-07-2018,Printer,Laura,6,80,0.09,Maharashtra
+18-07-2018,White Board,Bob,23,40,0.04,Delhi
+18-07-2018,White Board,Laura,12,40,0.02,West Bengal
+18-07-2018,White Board,Stacey,22,40,0.01,Bihar
+18-07-2018,Projector,Stacey,6,150,0.03,Goa
+18-07-2018,Diary,Bob,19,16,0.02,Karnataka
+18-07-2018,White Board,Laura,2,40,0.02,Gujarat
+19-07-2018,White Board,Stacey,22,40,0.01,Jharkhand
+19-07-2018,Office Chair,Stacey,3,230,0.01,Haryana
+19-07-2018,White Board,Stacey,23,40,0.06,Kerala
+19-07-2018,White Board,Bob,5,40,0.03,Meghalaya
+19-07-2018,Printer,John,8,80,0.08,Uttar Pradesh
+19-07-2018,White Board,Laura,18,40,0.03,Maharashtra
+19-07-2018,White Board,Bob,20,40,0.1,Delhi
+19-07-2018,White Board,Laura,2,40,0.03,West Bengal
+19-07-2018,Office Chair,John,15,230,0.05,Bihar
+19-07-2018,Projector,Stacey,15,150,0.08,Uttar Pradesh
+19-07-2018,Projector,Stacey,22,150,0.05,Maharashtra
+19-07-2018,Office Chair,Mark,19,230,0.11,Delhi
+19-07-2018,Printer,Mark,10,80,0.11,West Bengal
+19-07-2018,White Board,Stacey,18,40,0.06,Bihar
+19-07-2018,Printer,Stacey,16,80,0.05,Goa
+19-07-2018,Projector,Bob,17,150,0.02,Karnataka
+20-07-2018,Office Chair,John,8,230,0.03,Gujarat
+20-07-2018,Printer,Stacey,11,80,0.01,Jharkhand
+20-07-2018,White Board,John,5,40,0.06,Haryana
+20-07-2018,White Board,Bob,11,40,0.05,Kerala
+20-07-2018,Projector,Stacey,20,150,0.1,Meghalaya
+20-07-2018,Projector,Laura,11,150,0.11,Uttar Pradesh
+20-07-2018,Printer,Stacey,2,80,0.08,Maharashtra
+20-07-2018,Projector,Mark,16,150,0.08,Delhi
+20-07-2018,Diary,John,20,16,0.11,West Bengal
+20-07-2018,Office Chair,Laura,2,230,0.09,Bihar
+20-07-2018,Projector,John,20,150,0.04,Uttar Pradesh
+20-07-2018,Projector,John,22,150,0.07,Maharashtra
+20-07-2018,Projector,Laura,22,150,0.04,Delhi
+20-07-2018,White Board,John,23,40,0.07,West Bengal
+21-07-2018,Diary,Laura,11,16,0.04,Bihar
+21-07-2018,Office Chair,Mark,11,230,0.1,Goa
+21-07-2018,Office Chair,John,7,230,0.08,Karnataka
+21-07-2018,Projector,Mark,13,150,0.08,Gujarat
+21-07-2018,Office Chair,Stacey,16,230,0.11,Jharkhand
+21-07-2018,Office Chair,Bob,20,230,0.09,Haryana
+21-07-2018,White Board,Laura,20,40,0.01,Kerala
+21-07-2018,Printer,John,20,80,0.01,Meghalaya
+21-07-2018,Projector,John,5,150,0.11,Uttar Pradesh
+22-07-2018,White Board,Laura,4,40,0.11,Maharashtra
+22-07-2018,Diary,John,7,16,0.12,Delhi
+22-07-2018,Diary,Mark,22,16,0.01,West Bengal
+22-07-2018,White Board,Stacey,15,40,0.03,Bihar
+22-07-2018,Printer,Mark,14,80,0.11,Uttar Pradesh
+22-07-2018,Diary,Mark,15,16,0.02,Maharashtra
+23-07-2018,Printer,Stacey,19,80,0.02,Delhi
+23-07-2018,White Board,Bob,20,40,0.05,West Bengal
+23-07-2018,White Board,Stacey,11,40,0.06,Bihar
+23-07-2018,Projector,Laura,11,150,0.05,Goa
+23-07-2018,Printer,Stacey,23,80,0.11,Karnataka
+23-07-2018,Printer,John,8,80,0.09,Gujarat
+23-07-2018,White Board,Stacey,9,40,0.06,Jharkhand
+23-07-2018,Office Chair,Bob,13,230,0.06,Haryana
+23-07-2018,White Board,Stacey,22,40,0.01,Kerala
+23-07-2018,Diary,Bob,14,16,0.06,Meghalaya
+24-07-2018,Printer,Mark,5,80,0.04,Uttar Pradesh
+24-07-2018,Projector,Bob,18,150,0.12,Maharashtra
+24-07-2018,Office Chair,Laura,14,230,0.12,Delhi
+24-07-2018,Office Chair,Bob,20,230,0.11,West Bengal
+24-07-2018,Diary,Bob,3,16,0.03,Bihar
+24-07-2018,Office Chair,Laura,20,230,0.06,Uttar Pradesh
+24-07-2018,Printer,Bob,9,80,0.02,Maharashtra
+24-07-2018,Diary,Stacey,22,16,0.03,Delhi
+24-07-2018,Printer,Mark,15,80,0.12,West Bengal
+24-07-2018,Projector,John,11,150,0.05,Bihar
+24-07-2018,Office Chair,Stacey,11,230,0.12,Goa
+24-07-2018,Projector,John,20,150,0.01,Karnataka
+24-07-2018,White Board,Laura,11,40,0.12,Gujarat
+25-07-2018,Office Chair,Laura,12,230,0.06,Jharkhand
+25-07-2018,White Board,John,15,40,0.06,Haryana
+25-07-2018,White Board,Stacey,13,40,0.09,Kerala
+25-07-2018,White Board,Bob,4,40,0.09,Meghalaya
+25-07-2018,Office Chair,Stacey,18,230,0.01,Uttar Pradesh
+25-07-2018,Diary,John,7,16,0.02,Maharashtra
+25-07-2018,Diary,Laura,6,16,0.07,Delhi
+25-07-2018,Office Chair,Stacey,8,230,0.05,West Bengal
+25-07-2018,Diary,Laura,12,16,0.11,Bihar
+25-07-2018,Office Chair,John,11,230,0.02,Uttar Pradesh
+25-07-2018,Diary,Laura,3,16,0.05,Maharashtra
+26-07-2018,Projector,Mark,16,150,0.05,Delhi
+26-07-2018,Office Chair,Stacey,8,230,0.01,West Bengal
+26-07-2018,Printer,Laura,16,80,0.04,Bihar
+26-07-2018,Diary,Stacey,18,16,0.04,Goa
+26-07-2018,White Board,Bob,14,40,0.11,Karnataka
+26-07-2018,Diary,Mark,21,16,0.02,Gujarat
+26-07-2018,Diary,Mark,7,16,0.08,Jharkhand
+26-07-2018,Printer,Laura,7,80,0.05,Haryana
+26-07-2018,White Board,Bob,16,40,0.09,Kerala
+26-07-2018,Office Chair,Bob,22,230,0.1,Meghalaya
+26-07-2018,White Board,Mark,4,40,0.03,Uttar Pradesh
+26-07-2018,Office Chair,Bob,3,230,0.1,Maharashtra
+26-07-2018,Printer,Mark,14,80,0.11,Delhi
+27-07-2018,White Board,Bob,21,40,0.01,West Bengal
+27-07-2018,Diary,Mark,20,16,0.06,Bihar
+27-07-2018,Printer,Bob,22,80,0.11,Uttar Pradesh
+27-07-2018,White Board,John,7,40,0.1,Maharashtra
+27-07-2018,Projector,Mark,16,150,0.05,Delhi
+27-07-2018,Office Chair,Mark,7,230,0.05,West Bengal
+27-07-2018,Projector,John,20,150,0.03,Bihar
+27-07-2018,Projector,Mark,16,150,0.03,Goa
+27-07-2018,Diary,Stacey,10,16,0.04,Karnataka
+27-07-2018,Printer,Bob,6,80,0.09,Gujarat
+27-07-2018,Printer,John,17,80,0.09,Jharkhand
+27-07-2018,White Board,John,19,40,0.04,Haryana
+27-07-2018,White Board,Bob,16,40,0.09,Kerala
+27-07-2018,Diary,John,4,16,0.12,Meghalaya
+27-07-2018,Projector,Stacey,9,150,0.02,Uttar Pradesh
+27-07-2018,Diary,John,11,16,0.09,Maharashtra
+27-07-2018,Printer,Mark,17,80,0.03,Delhi
+28-07-2018,Projector,John,3,150,0.03,West Bengal
+28-07-2018,Office Chair,Stacey,2,230,0.08,Bihar
+28-07-2018,Office Chair,Stacey,17,230,0.12,Uttar Pradesh
+28-07-2018,Projector,Mark,2,150,0.09,Maharashtra
+28-07-2018,White Board,Stacey,18,40,0.06,Delhi
+28-07-2018,Projector,Laura,18,150,0.06,West Bengal
+28-07-2018,White Board,Mark,12,40,0.1,Bihar
+28-07-2018,Printer,John,21,80,0.04,Goa
+28-07-2018,White Board,Bob,3,40,0.03,Karnataka
+28-07-2018,Printer,Bob,22,80,0.1,Gujarat
+28-07-2018,White Board,Bob,16,40,0.11,Jharkhand
+28-07-2018,Diary,John,11,16,0.09,Haryana
+29-07-2018,Printer,Laura,10,80,0.08,Kerala
+29-07-2018,Diary,Laura,12,16,0.03,Meghalaya
+29-07-2018,Projector,John,8,150,0.09,Uttar Pradesh
+29-07-2018,White Board,Bob,10,40,0.03,Maharashtra
+29-07-2018,Projector,John,7,150,0.02,Delhi
+29-07-2018,Diary,Laura,6,16,0.01,West Bengal
+29-07-2018,Printer,Stacey,15,80,0.08,Bihar
+29-07-2018,Diary,Bob,13,16,0.07,Uttar Pradesh
+29-07-2018,Office Chair,Stacey,19,230,0.06,Maharashtra
+29-07-2018,Printer,Stacey,21,80,0.05,Delhi
+29-07-2018,Printer,Mark,5,80,0.07,West Bengal
+29-07-2018,Diary,Laura,8,16,0.03,Bihar
+29-07-2018,Diary,Laura,12,16,0.11,Goa
+29-07-2018,Printer,Stacey,22,80,0.03,Karnataka
+29-07-2018,White Board,John,5,40,0.09,Gujarat
+30-07-2018,Projector,Mark,23,150,0.11,Jharkhand
+30-07-2018,Printer,John,16,80,0.03,Haryana
+30-07-2018,Projector,Bob,15,150,0.07,Kerala
+30-07-2018,White Board,John,20,40,0.04,Meghalaya
+30-07-2018,Office Chair,Laura,10,230,0.02,Uttar Pradesh
+30-07-2018,Printer,Mark,9,80,0.03,Maharashtra
+30-07-2018,Office Chair,John,16,230,0.07,Delhi
+30-07-2018,Printer,Mark,21,80,0.04,West Bengal
+30-07-2018,Printer,Mark,9,80,0.03,Bihar
+30-07-2018,White Board,Mark,4,40,0.12,Uttar Pradesh
+30-07-2018,Office Chair,Laura,5,230,0.01,Maharashtra
+30-07-2018,Diary,John,18,16,0.05,Delhi
+31-07-2018,Printer,Laura,6,80,0.01,West Bengal
+31-07-2018,Projector,Bob,4,150,0.05,Bihar
+31-07-2018,Office Chair,Bob,21,230,0.05,Goa
+31-07-2018,Projector,John,4,150,0.06,Karnataka
+31-07-2018,Printer,Mark,2,80,0.04,Gujarat
+31-07-2018,Diary,Mark,5,16,0.11,Jharkhand
+31-07-2018,Projector,Bob,23,150,0.08,Haryana
+31-07-2018,Printer,Mark,3,80,0.02,Kerala
+31-07-2018,Office Chair,Bob,17,230,0.11,Meghalaya
+31-07-2018,White Board,Laura,11,40,0.05,Uttar Pradesh
+31-07-2018,Office Chair,John,7,230,0.02,Maharashtra
+31-07-2018,White Board,Laura,13,40,0.02,Delhi
