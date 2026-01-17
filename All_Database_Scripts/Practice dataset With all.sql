@@ -194,6 +194,107 @@ join projects p
 on e.emp_id =p.emp_id
 where dept_name ="sales";
 
+-- 🔵 SUBQUERIES PRACTICE						
+ 										
+-- 29. Find employees whose salary is greater than the average salary.				
+select * from employees where Salary >(select avg(salary) from employees);
+
+-- 30. Display employees who earn the highest salary in their department.				
+-- select * from employees where salary >(select max(salary) from employees);									
+                                        
+-- 31. Find the second highest salary in the company.						
+ 										
+-- 32. Display employees earning more than the IT department average salary.			
+ 										
+-- 33. Find employees whose salary is equal to the maximum salary.			
+select * from employees where salary = (select max(Salary) from employees);	
+ 										
+-- 34. Display employees hired before the oldest manager.					
+ 										
+-- 35. Find departments where total salary is greater than company average salary.	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 🔴 ADVANCED / INTERVIEW LEVEL					
+ 										
+-- 36. Find employees who earn more than their department average.				
+ 										
+-- 37. Display departments where all employees earn more than 40,000.				
+ 										
+-- 38. Find employees whose salary is within 10% of the maximum salary.				
+ 										
+-- 39. Display employees hired on weekends.						
+ 										
+-- 40. Find employees who earn the same salary as someone in another department.			
+ 										
+-- 41. Display the top 3 highest-paid employees.
+select * from employees where salary >=(select max(Salary) from employees)						
+ 										
+-- 42. Find employees with duplicate salaries.						
+ 										
+-- 43. Display the department with highest total salary.					
+ 										
+-- 44. Find employees who have worked more than 150 hours on projects.				
+ 										
+-- 45. Display employees who are managers but not assigned to any project.			
+ 										
+ 										
+-- 🟣 UPDATE / DELETE PRACTICE					
+-- 										
+-- 46. Increase salary by 10% for IT department employees.					
+-- 										
+-- 47. Update all managers’ salary to 90,000.						
+-- 										
+-- 48. Delete employees who earn less than 35,000.						
+-- 										
+-- 49. Delete employees who joined before 2019.						
+-- 										
+-- 50. Update project hours by +20 for Sales department employees.				
+-- 										
+-- 										
+-- 										
+-- 🧠 REAL-WORLD SCENARIO QUESTIONS				
+-- 										
+-- 51. Find the highest-paid employee per department, but only show departments with more than 3 employees.
+-- 										
+-- 52. Find employees whose salary is above department average but below company average.		
+-- 										
+-- 53. Display employees who work on projects but are not managers.				
+-- 										
+-- 54. Find the department with minimum budget but maximum employees.			
+-- 										
+-- 55. Retrieve employees who joined in the last 1 year and earn above average salary.
+
+
+
 
 
 
