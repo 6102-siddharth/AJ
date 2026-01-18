@@ -194,6 +194,8 @@ join projects p
 on e.emp_id =p.emp_id
 where dept_name ="sales";
 
+
+
 -- 🔵 SUBQUERIES PRACTICE						
  										
 -- 29. Find employees whose salary is greater than the average salary.				
