@@ -258,9 +258,34 @@ select * from employees where salary = (select max(Salary) from employees);
 -- 40. Find employees who earn the same salary as someone in another department.			
  										
 -- 41. Display the top 3 highest-paid employees.
-select * from employees where salary >=(select max(Salary) from employees)						
+select * from employees where salary >=(select max(Salary) from employees)	;					
  										
--- 42. Find employees with duplicate salaries.						
+-- 42. Find employees with duplicate salaries.	
+select * from employees;
+select  salary,
+count(emp_id) as employee_count
+from employees
+group by Salary 
+having count(emp_id) >1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
  										
 -- 43. Display the department with highest total salary.					
  										
