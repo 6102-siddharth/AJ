@@ -116,8 +116,9 @@ select * from users where city='Pune';
 -- 6.Total revenue
 select * from orders;
 select * from order_items;
-select sum(total_amount) as Total_Revenue from orders;
-select sum(o.quantity * price);
+-- select sum(total_amount) as Total_Revenue from orders;               //Wrong do not prefer this
+select sum(quantity * price) as Total_revenue from order_items as oi join menu as m
+on oi.item_id =m.item_id ;
 
 -- 7.Orders per city
 select u.city,count(o.order_id) 
@@ -126,7 +127,7 @@ on u.user_id =o.user_id
 group by city;
 
 -- 8.Average order value
-select avg(order_id) as Average_Orders from orders ;
+select AVG(total_amount) as Average_Orders from orders ;
 
 -- 9.Total revenue per restaurant			// revenue = quantity * price from different tables
 select  restaurant_name , sum(oi.quantity * m.price) as Total_revenue
@@ -198,33 +199,139 @@ select * from orders order by total_amount desc;
 select distinct city from users;
 
 -- 21.Count total users
+select count(user_id) from users;
 
 -- 22.Count total restaurants
+select count(restaurant_id) from restaurants;
 
 -- 23.Find max order value
+-- select order_id,total_amount as max_value from orders
+-- order by total_amount desc limit 1;
+select order_id, max(total_amount) from orders
+group by order_id 
+order by max(total_amount) desc limit 1;
 
 -- 24.Find min order value
+select * from orders order by total_amount limit 1;
 
 -- 25.Show all items from "South Indian" category
+select * from menu where category='south indian';
+
+select * from users;
+select * from restaurants;
+select * from menu;
+select * from orders;
+select * from order_items;
 
 -- 🟡 Intermediate Level
 
 -- 26.Total orders per user
+select u.user_id,user_name ,count(order_id)from users as u join orders as o
+on u.user_id=o.user_id
+group by user_id,user_name;
 
--- 27.Total spending per user
+-- 27.Total spending per user 
+select u.user_id,u.user_name, sum(total_amount) from users as u join orders as o
+on u.user_id=o.user_id
+group by user_id,user_name;
 
 -- 28.Average spending per user
+select u.user_id,u.user_name, avg(total_amount) from users as u join orders as o
+on u.user_id=o.user_id
+group by user_id,user_name;
 
 -- 29.Orders per restaurant
-
--- 30.Revenue per restaurant
+select r.restaurant_id,restaurant_name,count(order_id) from restaurants as r join orders as o
+on r.restaurant_id=o.restaurant_id
+group by restaurant_id,restaurant_name;
+ 
+-- 30.Revenue per restaurant				
+select restaurant_name ,sum(quantity*price) from restaurants as r join menu as m
+on r.restaurant_id=m.restaurant_id
+join order_items as o
+on m.item_id=o.item_id
+group by restaurant_name;
 
 -- 31.Average order value per restaurant
+select restaurant_name , avg(total_amount) from restaurants as r join orders as o
+on r.restaurant_id=o.restaurant_id
+group by restaurant_name;
 
 -- 32.City-wise users count
+select city,count(user_id) from users group by city;
 
 -- 33.City-wise revenue
+select city,sum(quantity*price) from restaurants as r
+join menu as m
+on r.restaurant_id=m.restaurant_id
+join order_items as o
+on m.item_id=o.item_id
+group by city ;
 
 -- 34.Category-wise menu count
+select category,count(item_id) from menu group by category;
 
 -- 35.Category-wise revenue
+select category , sum(quantity * price) from menu as m join order_items as o
+on m.item_id=o.item_id
+group by category;
+
+select * from users;
+select * from restaurants;
+select * from menu;
+select * from orders;
+select * from order_items;
+
+-- Analytics
+
+-- 36. Monthly revenue trend
+select date_format(order_date,"%M")as Monthly, sum(quantity * price) as Total_revenue from orders as o join order_items as oi
+on o.order_id=oi.order_id
+join menu as m
+on m.item_id=oi.item_id
+group by Monthly;
+
+-- 37. Repeat customers
+select user_name,count(o.user_id) as repeat_consumer from users as u join orders as o
+on u.user_id=o.user_id
+group by user_name
+having repeat_consumer >1 ;
+
+-- 38. Top 3 users by spending
+select user_name,sum(total_amount) as spending_rupees from users as u join orders as o
+on u.user_id=o.user_id
+group by user_name
+limit 3 ;
+
+-- 39.Best restaurant by revenue
+select restaurant_name ,sum(quantity * price) as Revenue from menu as m join order_items as oi
+on m.item_id=oi.item_id
+join restaurants as r
+on r.restaurant_id=m.restaurant_id
+group by restaurant_name
+order by revenue desc
+limit 1;
+
+-- 40.Most sold food item
+select item_name ,count(quantity) as Revenue from menu as m join order_items as oi
+on m.item_id=oi.item_id
+join restaurants as r
+on r.restaurant_id=m.restaurant_id
+group by item_name;
+
+select * from users;
+select * from restaurants;
+select * from menu;
+select * from orders;
+select * from order_items;
+-- Advanced SQL
+
+-- 41.Users who never ordered
+
+-- 42.Restaurants with no orders
+
+-- 43.Items never ordered
+
+-- 44.Running total revenue
+
+-- 45.City-wise revenue ranking
