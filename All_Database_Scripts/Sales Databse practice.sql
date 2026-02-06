@@ -143,3 +143,5 @@ select payment_mode, count(order_id) from sales group by payment_mode having cou
 
 
 select * from sales;
+
+
