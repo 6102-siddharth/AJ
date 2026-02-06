@@ -1,0 +1,8 @@
+Python:
+	1.Basic 20 Programs:
+		https://colab.research.google.com/drive/1jwwV42TOPUI4gTePSmLZDxRJy7BtOch5
+	
+	2.String Slicing and String Opearations:
+		https://colab.research.google.com/drive/1vTgO5Ry-s-pg7j42A-cfs7QmyThx1ne1#scrollTo=rXrUA7sIZQFt
+		
+	3.
