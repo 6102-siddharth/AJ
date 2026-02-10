@@ -1,0 +1,43 @@
+									Pandas
+
+To see indexes
+pd.Series([1,2,3,4)] index=.....)
+
+df.pd.Dataframe({"names":["siddharth","SSV"],"city":["Miraj","sangli"])			
+
+
+TO Read csv file
+pd.read_csv(File_path)
+
+								Calling Rows 
+								
+df.head()   															call first 5 rows
+df.tail()   															call last 5 rows
+df.describe()  															Shows all aggregated vallues and much more
+df.info()    															Tells all column and null values
+
+								dealing with null values
+								
+df.dropna()  Removes all Null Values
+df.fillna()  Fills all null values with given values
+df.rename(columns={"Coulmn_name":"To_Replace_value")
+
+								Converting Data Type 
+								INT to string 
+									OR 
+								INT to Float
+								
+df2["Coulmn_name"]= df2["Coulmn_name"].astype(object)					object Means String 
+
+len(df) 																It tells Total Rowspresent in the Data set
+
+
+								TO create a new column as zero
+								to see where it is present 
+								
+df.["zeros"] =[for i in range(len(df)]
+
+
+								Merging two table in one table
+								
+								
