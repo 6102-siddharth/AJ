@@ -11,3 +11,10 @@ Python:
 	
 	4. Working with Pandas Library(CWH):
 		https://colab.research.google.com/drive/13h2x8Cs4-puRZkS0v8Ho6KpCLjBHx5th
+		
+		
+		
+	
+	Mini Project:
+	1) ALience Message Decoding Project:
+		https://colab.research.google.com/drive/1PP5RewIMRnl0yQ_8IOEEyU9cRMHbWyRp?usp=sharing
