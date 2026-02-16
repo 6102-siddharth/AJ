@@ -172,3 +172,7 @@ ADVANCED / INTERVIEW LEVEL
 59.	•  Find customers who bought both Laptop and Smartphone.
 60.	•  Display the most popular category by revenue.
 
+
+
+
+
