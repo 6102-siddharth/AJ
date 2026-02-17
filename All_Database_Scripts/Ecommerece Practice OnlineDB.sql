@@ -174,20 +174,20 @@ having customer_count >2 ;
 -- select min(total_amount) from orders ;
 
 -- 17.	Display total quantity sold for each product.
--- select product_name ,sum(oi.quantity) as Total_Quantity_Sold 
--- from Products as p join order_items as oi
--- on p.product_id = oi.product_id
--- group by Product_name;
+select product_name ,sum(oi.quantity) as Total_Quantity_Sold 
+from Products as p join order_items as oi
+on p.product_id = oi.product_id
+group by Product_name;
 
 -- 18.	Find the highest order amount per customer.
-select customer_name ;
+-- select customer_name ;
 
 -- 19.	Show categories where average price > 5000.
--- select category,avg(price)
--- from products 
--- group by Category
--- having avg(price) >5000; 
+select category,avg(price)
+from products 
+group by Category
+having avg(price) >5000; 
 
 -- 20.	Count how many products exist in each category.
--- select Category, count(Product_name) from Products group by Category;
--- select * from products;
+select Category, count(Product_name) from Products group by Category;
+select * from products;
