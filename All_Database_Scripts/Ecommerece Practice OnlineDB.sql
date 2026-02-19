@@ -218,8 +218,6 @@ group by product_name;
 select customer_name,product_name
 from customers as c join order_id as oi
 on c.customer_id= oi.customer_id;
-select * from order_items;
-select * from customers;
 
 -- 25.	Show customers who have placed at least one order.
 
@@ -238,3 +236,25 @@ select * from customers;
 
 -- 30.	Find the most expensive product purchased in each order.
 
+
+
+
+
+
+
+
+
+
+
+
+-- SUBQUERY PRACTICE
+-- 31.	Find customers whose total spending is above average.
+-- 32.	Display products priced above the average product price.
+-- 33.	Find the second highest product price.
+-- 34.	Show customers who placed the highest order.
+-- 35.	Find products that have price equal to the maximum price.
+-- 36.	Display customers who joined before the earliest order date.
+-- 37.	Find orders whose amount is greater than average order amount.
+-- 38.	Show customers who bought Laptop.
+-- 39.	Find products ordered more than the average quantity.
+-- 40.	Display customers who made more orders than customer_id = 1
