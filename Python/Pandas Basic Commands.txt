@@ -1,0 +1,38 @@
+import pandas as pd
+1) Creating a Dataframe
+df=pd.DataFrame([1,2,3,4],columns=["Index"])
+print(type(df))
+df
+data={
+    "Name":["Siddharth","Sai","Ashish","Abhilash","Rahul"],
+    "Age":[23,25,21,30,35],
+    "Salary":[40000,30000,40000,50000,20000]
+}
+df=pd.DataFrame(data)
+df
+# 2) Dataframe Understanding
+
+print(df.head() ) #TOp 5 rows
+print("-"*30)
+print(df.head() )#Top 2 rows
+print("-"*30)
+print(df.tail())
+
+df.shape
+df.columns   
+df.rename(columns={"Salary":"Montly_Salary"},inplace=True)
+df.info()
+df.describe()
+df.to_csv("Test222.csv")  # With predefined Index
+df.to_csv("Test1.csv",index=False)   #Exporting Data
+load_data=pd.read_csv("Test1.csv")   #Importing data
+
+ROWS SELECTION
+df[["Name","Montly_Salary"]]
+# Selecting Rows
+# Selecting Individual Row
+df.loc[df.Name=="Siddharth"]
+df.loc[(df.Name=="Siddharth") & (df.Montly_Salary >=40000)]
+
+# Accessing by Index Value
+df.iloc[1]
