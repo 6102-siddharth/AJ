@@ -1,0 +1,45 @@
+Load the dataset using pandas.
+Show the first 5 rows.
+Show last 5 rows.
+Check dataset shape.
+Display column names.
+Check data types of columns.
+Find missing values.
+Get basic statistics using .describe().
+Create a new column TotalSales = Price × Quantity.
+Find total revenue.
+Find average price of products.
+Find maximum quantity sold.
+Show all orders where Price > 20000.
+Show all Electronics products.
+Find orders from North region.
+Sort dataset by Price descending.
+Find top 5 highest sales orders.
+
+GroupBy Practice
+
+Total sales by Region.
+Total sales by Category.
+Average price by Product.
+Total quantity sold per Product.
+Count orders by PaymentMethod.
+
+NumPy Practice
+
+Convert Price column to NumPy array.
+Find mean price using numpy.
+Find max price using numpy.
+Find standard deviation of price.
+Create a NumPy array from Quantity column.
+
+Advanced Practice
+
+Find region with highest sales.
+Find most sold product.
+Calculate average delivery days by region.
+Find total sales by month.
+Filter orders where DeliveryDays > 5.
+
+Interview Question
+
+Find Top 3 customers by spending.

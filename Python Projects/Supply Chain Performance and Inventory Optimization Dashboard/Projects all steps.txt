@@ -1,0 +1,319 @@
+!pip install pandas numpy matplotlib seaborn
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+Upload:
+orders_dataset.csv
+shipments_dataset.csv
+inventory_dataset.csv
+
+LOAD DATA:
+orders = pd.read_csv("orders_dataset.csv")
+shipments = pd.read_csv("shipments_dataset.csv")
+inventory = pd.read_csv("inventory_dataset.csv")
+orders.head()
+shipments.head()
+inventory.head()
+orders.info()
+shipments.info()
+inventory.info()
+
+Step 7 — Data Cleaning:
+orders = orders.drop_duplicates()
+shipments = shipments.drop_duplicates()
+inventory = inventory.drop_duplicates()
+
+Checking Missing Values:
+orders.isnull().sum()
+shipments.isnull().sum()
+inventory.isnull().sum()
+
+Step 8 — Convert Date Columns
+orders["OrderDate"] = pd.to_datetime(orders["OrderDate"])
+shipments["ShipmentDate"] = pd.to_datetime(shipments["ShipmentDate"])
+shipments["DeliveryDate"] = pd.to_datetime(shipments["DeliveryDate"])
+
+Step 9 — Merge Tables:
+df = pd.merge(orders, shipments, on="OrderID")
+df = pd.merge(df, inventory, on=["ProductID","WarehouseID"])
+df.head()
+
+Step 10 — Create New Columns (Feature Engineering)
+Delivery Status
+		df["DeliveryStatus"] = np.where(df["DelayDays"] > 0, "Delayed", "On Time")
+Revenue
+		df["Revenue"] = df["OrderQty"] * df["UnitPrice"]
+		
+Step 11 — Calculate KPIs:
+Total Revenue
+	total_revenue = df["Revenue"].sum()
+print("Total Revenue:", total_revenue)
+
+Total Orders
+	total_orders = df["OrderID"].nunique()
+print("Total Orders:", total_orders)
+
+Average Delay
+	avg_delay = df["DelayDays"].mean()
+print("Average Delay:", avg_delay)
+
+On-Time Delivery %:
+	on_time = (df["DeliveryStatus"] == "On Time").sum()
+total = len(df)
+
+on_time_percentage = (on_time / total) * 100
+print("On-Time Delivery %:", on_time_percentage)
+
+Inventory Turnover
+	inventory_turnover = df["OrderQty"].sum() / df["StockOnHand"].sum()
+print("Inventory Turnover:", inventory_turnover)
+
+Step 12 — Revenue Trend:
+revenue_trend = df.groupby("OrderDate")["Revenue"].sum()
+
+Plot:
+	plt.figure(figsize=(12,6))
+revenue_trend.plot()
+plt.title("Revenue Trend Over Time")
+plt.xlabel("Date")
+plt.ylabel("Revenue")
+plt.show()
+
+Step 13 — Delivery Status Chart:
+	sns.countplot(x="DeliveryStatus", data=df)
+
+plt.title("Delivery Status Distribution")
+plt.show()
+
+Step 14 — Warehouse Performance:
+	warehouse_delay = df.groupby("WarehouseID")["DelayDays"].mean()
+	Plot:
+	warehouse_delay.plot(kind="bar", figsize=(8,5))
+plt.title("Average Delay by Warehouse")
+plt.ylabel("Delay Days")
+plt.show()
+
+Step 15 — Inventory Analysis
+Low stock products:
+	low_stock = inventory[inventory["StockOnHand"] < inventory["ReorderLevel"]]
+
+low_stock.head()
+
+Step 16 — Top Products by Sales
+top_products = df.groupby("ProductID")["Revenue"].sum().sort_values(ascending=False).head(10)
+
+top_products.plot(kind="bar", figsize=(10,5))
+plt.title("Top 10 Products by Revenue")
+plt.show()
+
+Step 17 — Shipment Delay Distribution
+plt.figure(figsize=(8,5))
+sns.histplot(df["DelayDays"], bins=20)
+plt.title("Shipment Delay Distribution")
+plt.show()
+
+Step 18 — Export Clean Dataset (Optional):
+df.to_csv("supply_chain_cleaned_data.csv", index=False)
+files.download("supply_chain_cleaned_data.csv")
+
+Step 19 — Insights (Important for Interview)
+Example insights you can say:
+Average shipment delay is X days
+X% deliveries are on time
+Warehouse W2 has highest delay
+Some products are below reorder level
+Revenue trend shows seasonal demand
+
+Step 20 — Connect to Power BI
+
+Use the exported file:supply_chain_cleaned_data.csv
+
+
+Final Project Workflow:
+Dataset
+   ↓
+Google Colab
+   ↓
+Data Cleaning (Pandas)
+   ↓
+Data Merging
+   ↓
+Feature Engineering
+   ↓
+KPI Calculation
+   ↓
+Visualization
+   ↓
+Export Clean Dataset
+   ↓
+Power BI Dashboard
+
+
+	
+	
+	
+	
+	
+	
+
+
+IN (POWER BI AND SQL )
+Project: Supply Chain Performance & Inventory Optimization Dashboard
+
+Project Understanding (VERY IMPORTANT)
+Objective
+You need to analyze:
+Inventory turnover
+Shipment delays
+Warehouse utilization
+
+Revenue performance
+Final output: Interactive Power BI Dashboard
+
+Load Data into Power BI:
+Step 1: Open Power BI
+Open Power BI Desktop
+Click Get Data
+Choose Text/CSV
+
+Step 2: Import All Files
+Import these three files one by one:
+orders_dataset.csv
+shipments_dataset.csv
+inventory_dataset.csv
+Click Transform Data (IMPORTANT — opens Power Query)
+
+Data Cleaning in Power Query (BEGINNER LEVEL):
+For each table:
+Orders table
+Set:
+OrderDate → Date
+OrderQty → Whole Number
+UnitPrice → Decimal
+OrderAmount → Decimal
+How:
+Home → Data Type → select correct type
+
+Shipments table
+Set:
+ShipmentDate → Date
+DeliveryDate → Date
+DelayDays → Whole Number
+
+Inventory table
+Set:
+StockOnHand → Whole Number
+ReorderLevel → Whole Number
+LastUpdated → Date
+
+Remove Errors / Nulls
+Home → Remove Rows → Remove Blank Rows
+
+Create Calculated Column (Important)
+Add Column → Custom Column
+Formula:
+if [DelayDays] = 0 then "On Time" else "Delayed"
+Name: DeliveryStatus
+Very important KPI column
+
+Close & Apply
+
+Create Data Model (RELATIONSHIPS):
+
+Open Model View
+Left side → click Model icon
+
+Create Relationships
+Drag and drop:
+
+Relationship 1
+Orders[OrderID] → Shipments[OrderID]
+Cardinality: One to Many
+
+Relationship 2
+Orders[ProductID] → Inventory[ProductID]
+
+Relationship 3
+Shipments[WarehouseID] → Inventory[WarehouseID]
+
+Create DAX Measures (VERY IMPORTANT 🔥)
+
+Go to Modeling → New Measure
+
+Total Revenue
+Total Revenue = SUM(Orders[OrderAmount])
+Total Orders
+Total Orders = COUNT(Orders[OrderID])
+
+On-Time Delivery %
+OnTime % =
+DIVIDE(
+    CALCULATE(COUNT(Shipments[OrderID]),
+        Shipments[DeliveryStatus] = "On Time"
+    ),
+    COUNT(Shipments[OrderID])
+)
+
+Average Delay
+Avg Delay = AVERAGE(Shipments[DelayDays])
+
+Inventory Turnover (Important for Interview)
+
+Inventory Turnover =
+DIVIDE(
+    SUM(Orders[OrderQty]),
+    SUM(Inventory[StockOnHand])
+)
+
+Low Stock Flag
+Create calculated column in Inventory:
+StockStatus =
+IF(
+    Inventory[StockOnHand] < Inventory[ReorderLevel],
+    "Low Stock",
+    "Sufficient"
+)
+
+
+Visual 1 — KPI Cards (Top Section)
+Add Card visuals for:
+Total Revenue
+Total Orders
+OnTime %
+Avg Delay
+Inventory Turnover
+Visualizations → Card
+
+Visual 2 — Revenue Trend
+Visual: Line Chart
+Axis → OrderDate
+Values → Total Revenue
+
+Visual 3 — Delivery Status
+Visual: Pie Chart
+Legend → DeliveryStatus
+Values → Count of OrderID
+
+Visual 4 — Warehouse Performance
+Visual: Bar Chart
+Axis → WarehouseID
+Values → Avg Delay
+
+Visual 5 — Low Stock Products
+Visual: Table
+Columns:
+ProductID
+WarehouseID
+StockOnHand
+StockStatus
+
+Visual 6 — Slicers (VERY IMPORTANT)
+Add slicers for:
+OrderDate
+WarehouseID
+ProductID
+
+Completed Project
