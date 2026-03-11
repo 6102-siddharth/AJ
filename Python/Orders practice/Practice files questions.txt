@@ -1,0 +1,104 @@
+Dataset:
+OrderID,CustomerName,Product,Category,Price,Quantity,PaymentMethod,OrderDate,City,Rating
+1,Amit Sharma,Laptop,Electronics,65000,1,Credit Card,2024-01-05,Mumbai,5
+2,Priya Patel,Headphones,Electronics,2500,2,UPI,2024-01-06,Delhi,4
+3,Rahul Verma,Shoes,Fashion,3200,1,Debit Card,2024-01-07,Pune,4
+4,Neha Singh,Smartphone,Electronics,45000,1,Credit Card,2024-01-07,Bangalore,5
+5,Arjun Gupta,T-Shirt,Fashion,800,3,Cash,2024-01-08,Mumbai,3
+6,Simran Kaur,Watch,Accessories,5500,1,UPI,2024-01-08,Delhi,4
+7,Vikram Joshi,Tablet,Electronics,30000,1,Credit Card,2024-01-09,Pune,5
+8,Kavita Shah,Handbag,Fashion,4200,1,Debit Card,2024-01-09,Ahmedabad,4
+9,Rohit Patil,Sneakers,Fashion,3800,2,UPI,2024-01-10,Mumbai,5
+10,Anjali Mehta,Camera,Electronics,52000,1,Credit Card,2024-01-10,Delhi,5
+11,Sachin Nair,Keyboard,Electronics,1800,1,Debit Card,2024-01-11,Bangalore,4
+12,Pooja Desai,Makeup Kit,Beauty,2200,2,UPI,2024-01-11,Ahmedabad,3
+13,Karan Malhotra,Jeans,Fashion,2500,1,Credit Card,2024-01-12,Delhi,4
+14,Riya Kapoor,Perfume,Beauty,3500,1,Cash,2024-01-12,Mumbai,5
+15,Aditya Rao,Monitor,Electronics,15000,1,Debit Card,2024-01-13,Bangalore,4
+16,Sneha Kulkarni,Backpack,Accessories,2000,2,UPI,2024-01-13,Pune,4
+17,Manish Yadav,Sunglasses,Accessories,1800,1,Credit Card,2024-01-14,Delhi,3
+18,Nikita Jain,Heels,Fashion,2900,1,Debit Card,2024-01-14,Ahmedabad,4
+19,Rajesh Khanna,Printer,Electronics,9000,1,UPI,2024-01-15,Mumbai,4
+20,Meera Iyer,Hair Dryer,Beauty,1500,1,Cash,2024-01-15,Bangalore,3
+
+
+Questions:
+
+Load the CSV file into a Pandas DataFrame.
+
+Display the first 5 rows of the dataset.
+
+Display the last 5 rows of the dataset.
+
+Find the total number of rows and columns in the dataset.
+
+Display all column names.
+
+Check the data types of all columns.
+
+Get summary statistics of numerical columns.
+
+Check if there are any missing values in the dataset.
+
+Display the information of the dataset using info().
+
+Select only the CustomerName and Product columns.
+
+Retrieve the price of the 15th order.
+
+Display the first 10 customers and their cities.
+
+Extract the Product, Category, and Price columns.
+
+Show all orders placed in the city Mumbai.
+
+Filtering Data
+
+Find all orders where the Price is greater than ₹1000.
+
+List customers who purchased from the Electronics category.
+
+Find all orders where Quantity is greater than 3.
+
+Display all orders where PaymentMethod is "Credit Card".
+
+Show customers whose Rating is greater than 4.
+
+Sorting Data
+Sort the dataset by Price in descending order.
+
+Sort the dataset by Rating in ascending order.
+
+Find the top 5 most expensive products.
+
+Aggregation & Statistics
+
+Find the average price of all products.
+
+Count the number of orders for each Category.
+
+Find the maximum price product.
+
+Find the minimum price product.
+
+Calculate the total sales (Price × Quantity).
+
+GroupBy Practice
+
+Find the average rating for each category.
+
+Find the total quantity sold for each product.
+
+Count the number of orders in each city.
+
+Advanced Practice
+
+Create a new column called TotalAmount = Price × Quantity.
+
+Find the top 5 customers who spent the most money.
+
+Find the category with the highest average price.
+
+Find the city with the highest number of orders.
+
+Find the most frequently purchased product.
