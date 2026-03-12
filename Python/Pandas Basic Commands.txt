@@ -36,3 +36,8 @@ df.loc[(df.Name=="Siddharth") & (df.Montly_Salary >=40000)]
 
 # Accessing by Index Value
 df.iloc[1]
+
+
+sorting the data by nth largest or nthsmallest 
+df.nlargest(5,"Column_Name")
+df.nsmallest(5,"Column_Name")

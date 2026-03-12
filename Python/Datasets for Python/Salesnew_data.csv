@@ -1,0 +1,21 @@
+﻿OrderID,Customer,Region,Product,Category,Price,Quantity,OrderDate,DeliveryDays,PaymentMethod
+1001,John,North,Laptop,Electronics,70000,1,05-01-2024,3,Credit Card
+1002,Amit,West,Mobile,Electronics,25000,2,07-01-2024,5,UPI
+1003,Sara,South,Headphones,Electronics,2000,3,08-01-2024,2,Debit Card
+1004,Rahul,East,Desk,Furniture,8000,1,10-01-2024,6,Cash
+1005,Priya,North,Chair,Furniture,4000,4,12-01-2024,4,UPI
+1006,David,West,Laptop,Electronics,72000,1,15-01-2024,3,Credit Card
+1007,Neha,South,Tablet,Electronics,30000,2,18-01-2024,7,Debit Card
+1008,Arjun,East,Monitor,Electronics,15000,1,20-01-2024,5,Cash
+1009,Anita,North,Keyboard,Electronics,1500,5,22-01-2024,2,UPI
+1010,Vikas,West,Mouse,Electronics,800,6,25-01-2024,3,UPI
+1011,Rohan,South,Sofa,Furniture,25000,1,28-01-2024,8,Credit Card
+1012,Kiran,East,Table,Furniture,10000,1,02-02-2024,6,Debit Card
+1013,Sneha,North,Mobile,Electronics,22000,2,05-02-2024,4,UPI
+1014,Manish,West,Chair,Furniture,3500,3,08-02-2024,5,Cash
+1015,Asha,South,Headphones,Electronics,1800,4,10-02-2024,3,Debit Card
+1016,Raj,East,Laptop,Electronics,68000,1,12-02-2024,6,Credit Card
+1017,Meera,North,Monitor,Electronics,14000,2,15-02-2024,4,UPI
+1018,Karan,West,Desk,Furniture,9000,1,18-02-2024,7,Cash
+1019,Nisha,South,Tablet,Electronics,31000,1,20-02-2024,5,Debit Card
+1020,Vinay,East,Mouse,Electronics,900,8,25-02-2024,3,UPI
