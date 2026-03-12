@@ -1,0 +1,21 @@
+﻿PassengerID,FirstName,LastName,Age,Gender,FlightNumber,Departure,Destination,TicketPrice,SeatClass,Status
+1,Aarav,Sharma,25,Male,AI101,Mumbai,London,500,Economy,Confirmed
+2,Vihaan,Verma,30,Male,BA202,Delhi,New York,750,Business,Cancelled
+3,Vivaan,Patel,45,Male,DL303,Bangalore,Los Angeles,600,Economy,Confirmed
+4,Anaya,Desai,28,Female,EK404,Chennai,Dubai,1200,First,Confirmed
+5,Myra,Iyer,34,Female,QR505,Kolkata,Tokyo,900,Business,On Hold
+6,Aryan,Nair,22,Male,LH606,Hyderabad,Munich,850,Economy,Confirmed
+7,Ishaan,Mehta,40,Male,AF707,Pune,Rome,950,First,Cancelled
+8,Kabir,Rao,38,Male,SQ808,Ahmedabad,Hong Kong,1100,Business,Confirmed
+9,Saanvi,Joshi,29,Female,UA909,Lucknow,San Francisco,700,Economy,On Hold
+10,Aadhya,Bhat,27,Female,AI110,Jaipur,Singapore,650,Economy,Confirmed
+11,Advait,Kapoor,32,Male,BA211,Mumbai,London,720,Business,Confirmed
+12,Rudra,Chopra,26,Male,DL322,Delhi,New York,580,Economy,Cancelled
+13,Pari,Malhotra,50,Female,EK433,Bangalore,Los Angeles,1300,First,Confirmed
+14,Kiaan,Jain,31,Male,QR544,Chennai,Dubai,890,Business,On Hold
+15,Tanish,Agarwal,35,Male,LH633,Kolkata,Tokyo,800,Economy,Confirmed
+16,Riya,Bose,23,Female,AF722,Hyderabad,Munich,970,First,Confirmed
+17,Krishna,Das,36,Male,SQ833,Pune,Rome,1150,Business,On Hold
+18,Shaurya,Saxena,41,Male,UA944,Ahmedabad,Hong Kong,730,Economy,Confirmed
+19,Tanvi,Chatterjee,48,Female,AI123,Lucknow,San Francisco,670,Economy,Confirmed
+20,Arjun,Gupta,33,Male,QR567,Jaipur,Singapore,910,Business,On Hold
