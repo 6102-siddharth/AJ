@@ -1,0 +1,161 @@
+E-Commerce Sales Dataset:
+Table 1 — Customers.csv
+| Customer_ID | Name         | Gender | Age | City   | Country | Signup_Date |
+| ----------- | ------------ | ------ | --- | ------ | ------- | ----------- |
+| C001        | Rahul Sharma | Male   | 28  | Pune   | India   | 2022-01-15  |
+| C002        | Priya Patel  | Female | 32  | Mumbai | India   | 2021-11-10  |
+| C003        | John Smith   | Male   | 35  | London | UK      | 2023-02-05  |
+| C004        | Ananya Gupta | Female | 24  | Delhi  | India   | 2022-09-18  |
+
+Table 2 — Products.csv
+| Product_ID | Product_Name | Category    | Price | Stock |
+| ---------- | ------------ | ----------- | ----- | ----- |
+| P101       | iPhone 14    | Electronics | 85000 | 50    |
+| P102       | Samsung TV   | Electronics | 45000 | 30    |
+| P103       | Nike Shoes   | Fashion     | 5000  | 200   |
+| P104       | Laptop Dell  | Electronics | 65000 | 40    |
+
+Table 3 — Orders.csv
+| Order_ID | Customer_ID | Order_Date | Order_Status | Total_Amount |
+| -------- | ----------- | ---------- | ------------ | ------------ |
+| O1001    | C001        | 2024-02-12 | Delivered    | 90000        |
+| O1002    | C002        | 2024-03-01 | Cancelled    | 5000         |
+| O1003    | C003        | 2024-03-05 | Delivered    | 65000        |
+
+Table 4 — Order_Items.csv
+| Order_Item_ID | Order_ID | Product_ID | Quantity | Price |
+| ------------- | -------- | ---------- | -------- | ----- |
+| OI01          | O1001    | P101       | 1        | 85000 |
+| OI02          | O1001    | P103       | 1        | 5000  |
+| OI03          | O1002    | P103       | 1        | 5000  |
+
+Table 5 — Payments.csv
+| Payment_ID | Order_ID | Payment_Method | Payment_Status | Payment_Date |
+| ---------- | -------- | -------------- | -------------- | ------------ |
+| PAY01      | O1001    | Credit Card    | Success        | 2024-02-12   |
+| PAY02      | O1002    | UPI            | Failed         | 2024-03-01   |
+
+Table 6 — Reviews.csv
+| Review_ID | Product_ID | Customer_ID | Rating | Review_Date |
+| --------- | ---------- | ----------- | ------ | ----------- |
+| R001      | P101       | C001        | 5      | 2024-02-20  |
+| R002      | P103       | C002        | 4      | 2024-03-10  |
+
+SQL Practice
+
+Example questions:
+Top 10 customers by revenue
+Monthly sales trend
+Most sold product category
+Average order value
+Customers who never ordered
+Repeat customers
+Highest rated products
+
+Python (Pandas)
+Practice:
+Data cleaning
+Missing values
+Feature engineering
+Aggregations
+Groupby
+Merging tables
+
+Power BI / Excel
+Build dashboards:
+Sales Dashboard
+Customer Segmentation
+Product Performance
+Revenue Trends
+Payment Method Analysis
+
+import pandas as pd
+
+customers = pd.read_csv("customers.csv")
+orders = pd.read_csv("orders.csv")
+products = pd.read_csv("products.csv")
+order_items = pd.read_csv("order_items.csv")
+payments = pd.read_csv("payments.csv")
+reviews = pd.read_csv("reviews.csv")
+
+Level 1 — Basic Pandas (Data Understanding)
+1.	Show the first 10 rows of the customers dataset.
+2.	Show the last 5 rows of the orders dataset.
+3.	Find the number of rows and columns in products.
+4.	Display all column names from orders.
+5.	Check the data types of all columns in customers.
+6.	Find the number of missing values in each column.
+7.	Show only Name, City, Country columns from customers.
+8.	Find unique product categories.
+9.	Count how many customers are from India.
+10.	Find the total number of products.
+
+Level 2 — Filtering & Sorting
+11.	Find customers whose Age > 30.
+12.	Find orders where Total_Amount > 50000.
+13.	Find products in the Electronics category.
+14.	Find orders with Order_Status = Delivered.
+15.	Sort products by Price (Highest first).
+16.	Show top 10 most expensive products.
+17.	Find customers from Pune.
+18.	Filter products where Price between 5000 and 20000.
+19.	Find orders placed in 2024.
+20.	Find products with Stock < 50.
+ 
+Level 3 — Feature Engineering
+21.	Create a new column Discounted_Price = Price * 0.9
+22.	Create a column Age_Group
+23.	Example:
+24.	Age < 25 → Young
+25–40 → Adult
+40+ → Senior
+25.	Create column High_Value_Order
+26.	Total_Amount > 50000 → Yes
+else → No
+27.	Extract Order Month from Order_Date.
+28.	Extract Order Year.
+
+Level 4 — GroupBy & Aggregations
+26.	Find total sales.
+27.	Find average product price by category.
+28.	Find number of customers per country.
+29.	Find total revenue per product.
+30.	Find top 5 cities with most customers.
+31.	Find monthly sales trend.
+32.	Find number of orders per customer.
+33.	Find average rating per product.
+34.	Find total quantity sold per product.
+35.	Find category with highest sales.
+
+Level 5 — Merging Data (Important for Analysts)
+36.	Merge orders and customers.
+37.	Merge order_items and products.
+38.	Merge orders + payments.
+39.	Find customer name and order amount.
+40.	Find products purchased by each customer.
+
+Level 6 — Real Data Analyst Problems
+41.	Find Top 10 customers by spending.
+42.	Find most popular product.
+43.	Find most profitable category.
+44.	Find customers who never ordered.
+45.	Find repeat customers.
+46.	Find highest rated products.
+47.	Find payment method used most.
+48.	Find customers with failed payments.
+49.	Find top 5 selling products.
+50.	Find average order value.
+
+Level 7 — Advanced Data Analyst Tasks
+51.	Find customer lifetime value (CLV).
+52.	Find monthly revenue growth.
+53.	Find churn customers (no orders in last 6 months).
+54.	Find products with rating > 4.5 and sales > 100.
+55.	Find customers who bought electronics more than 3 times.
+56.	Find highest revenue day.
+57.	Create customer segmentation based on spending.
+58.	Find most profitable product category per month.
+59.	Find orders with multiple products.
+60.	Find top customer in each city.
+
+
