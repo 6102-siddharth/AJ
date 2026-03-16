@@ -5,16 +5,23 @@ Python:
 	2.String Slicing and String Opearations:
 		https://colab.research.google.com/drive/1vTgO5Ry-s-pg7j42A-cfs7QmyThx1ne1#scrollTo=rXrUA7sIZQFt
 		
-	3.
-	
-	
-	
+	3.Working with Numpy Library With Array Inspections:
+	https://colab.research.google.com/drive/1HXhjABnnA8QcUm10K646yy1SI6Thjnm1
+		
 	4. Working with Pandas Library(CWH):
 		https://colab.research.google.com/drive/13h2x8Cs4-puRZkS0v8Ho6KpCLjBHx5th
 		
+	5. Working On pandas Library with concepts of aggregate, Group by order by and 
+	Data Cleaning Process contains Removing Duplicates , Dealing with the Null Values:
+		Sales Data, Cars Data, Airline Data:
+		https://colab.research.google.com/drive/1UzkAdOLtDItSYXgf76sxTc1nMvPSl2Xm
 		
-		
+	Python Project with Patient Master Dataset:
+	 1) Working On Project Patient_Master dataset with Python :
+		https://colab.research.google.com/drive/1sXnsBtbCEnpJgSzQL708KfSBVB00wXdj
+			
 	
 	Mini Project:
 	1) ALience Message Decoding Project:
 		https://colab.research.google.com/drive/1PP5RewIMRnl0yQ_8IOEEyU9cRMHbWyRp?usp=sharing
+		
