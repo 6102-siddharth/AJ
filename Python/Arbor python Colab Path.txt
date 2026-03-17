@@ -8,13 +8,16 @@ Python:
 	3.Working with Numpy Library With Array Inspections:
 	https://colab.research.google.com/drive/1HXhjABnnA8QcUm10K646yy1SI6Thjnm1
 		
-	4. Working with Pandas Library(CWH):
+	4.Working with Pandas Library(CWH):
 		https://colab.research.google.com/drive/13h2x8Cs4-puRZkS0v8Ho6KpCLjBHx5th
 		
-	5. Working On pandas Library with concepts of aggregate, Group by order by and 
+	5.Working On pandas Library with concepts of aggregate, Group by order by and 
 	Data Cleaning Process contains Removing Duplicates , Dealing with the Null Values:
 		Sales Data, Cars Data, Airline Data:
 		https://colab.research.google.com/drive/1UzkAdOLtDItSYXgf76sxTc1nMvPSl2Xm
+		
+	6.Employee Data For Visualization by Matplot lib and Seaborn:
+		https://colab.research.google.com/drive/1Qpm9GtOmDltDB_sFs5YJpG07J8zqoESw
 		
 	Python Project with Patient Master Dataset:
 	 1) Working On Project Patient_Master dataset with Python :
