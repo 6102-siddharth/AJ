@@ -1,6 +1,7 @@
 drop database if exists ecommerce_practice;
 CREATE DATABASE ecommerce_practice;
 USE ecommerce_practice;
+
 -- Customers Table
 CREATE TABLE customers (
     customer_id INT PRIMARY KEY,
@@ -32,6 +33,7 @@ INSERT INTO products VALUES
 (103,'Headphones','Electronics',2000,50),
 (104,'Office Chair','Furniture',7000,15),
 (105,'Desk','Furniture',12000,8);
+
 -- Orders Table
 CREATE TABLE orders (
     order_id INT PRIMARY KEY,
@@ -94,3 +96,24 @@ INSERT INTO reviews VALUES
 (2,102,2,4,'2024-01-15'),
 (3,103,3,3,'2024-02-05'),
 (4,104,1,4,'2024-02-20');
+
+select * from customers;
+select * from Products;
+select * from orders;
+select * from order_items;
+select * from payments;
+select * from reviews;
+
+-- SQL PRACTICE QUESTIONS
+-- Retrieve all customers.
+select * from customers;
+
+-- Find all products with price greater than 10,000.
+select * from Products where price > 10000;
+
+-- Show all customers from Pune.
+select * from Customers where city="Pune";
+
+-- Display all orders placed in 2024.
+
+-- Find total number of products.
