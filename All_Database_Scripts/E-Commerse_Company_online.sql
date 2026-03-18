@@ -115,5 +115,22 @@ select * from Products where price > 10000;
 select * from Customers where city="Pune";
 
 -- Display all orders placed in 2024.
+select * from orders where order_date between "2024-01-01" and '2024-12-31';
 
 -- Find total number of products.
+select count(*) from Products;
+
+-- INTERMEDIATE QUESTIONS
+-- Filtering
+
+-- Find products with stock less than 10.
+
+-- Show customers who signed up after March 2023.
+
+-- Aggregation
+
+-- Find total revenue.
+
+-- Find average product price.
+
+-- Count number of orders per customer.
