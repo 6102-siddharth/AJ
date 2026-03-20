@@ -79,13 +79,13 @@ select row_number() over (order by joining_date asc)as Date_rank from emp;
 select *, Rank() over(order by salary desc) from emp;
 
 -- 5.	Dense rank employees based on salary
-select *, dense_rank() over(order by salary) from emp;
+select *, dense_rank() over(order by salary desc) from emp;
 
 -- 6.	Show row number for employees ordered by name
 select *, row_number() over (order by name) from emp;
 
 -- 7.	Find top 5 employees using ROW_NUMBER()
-select * , row_number() over (order by salary desc)  from emp limit 5;
+select * from (select * , row_number() over (order by salary desc)as rn from emp)t where rn<=5 ;
 
 -- 8.	Find employee with rank = 1 (highest salary)
 select *, rank() over (order by salary desc)as Highest_Salary from emp limit 1;
