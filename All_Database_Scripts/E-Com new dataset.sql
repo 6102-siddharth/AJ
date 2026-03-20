@@ -153,26 +153,85 @@ group by Name;
 
 -- GROUP BY
 -- Find number of products in each category.
-
+select Category , count(product_id) from products group by category;
 
 -- Find total revenue per category.
+select category, sum(p.price * oi.quantity) as Total_Revenue 
+from Products p join order_items oi 
+on p.product_id=oi.product_id
+group by category;
 
 -- Find total orders per city.
-
-
+select city, count(o.order_id) as Total_orders 
+from orders as o join customers c
+on c.customer_id=o.customer_id
+group by city;
 
 -- 5. JOIN QUESTIONS
 -- Show all orders with customer names.
+select concat(first_name, last_name) as Customer_name , count(o.order_id) as Orders
+from Customers as c join orders as o
+on c.customer_id=o.customer_id
+group by Customer_Name;
 
 -- List products purchased in each order.
+select Product_name , count(oi.order_id) as Order_Count
+from Products as p join order_items as oi
+on p.product_id=oi.product_id
+group by Product_name; 
 
 -- Find total amount spent by each customer.
+select concat(first_name ," ",last_name) as Fullname ,sum(oi.quantity * p.price) as TotalSpend
+from customers as c join orders as o 
+on c.customer_id=o.customer_id 
+join order_items as oi
+on o.order_id=oi.order_id 
+join products as p
+on p.product_id=oi.product_id
+group by Fullname;  
 
 -- Show product name with review rating.
+select product_name , rating 
+from products  p join reviews r 
+on p.product_id=r.product_id
+group by Product_name , Rating;
 
 -- Find customers who have never placed an order.
+select concat(first_name ," ",last_name) as Fullname, count(o.order_id) as orderss
+from customers as c left join orders as o
+on c.customer_id = o.customer_id
+group by fullname having orderss <=0;
 
 
+--  6. ADVANCED QUESTIONS
+-- Subqueries
+
+-- Find the most expensive product.
+select * from products where price =(select max(price) from products); 
+select * from products order by price desc limit 1;
+
+-- Find customers who spent more than average spending.
+-- select * from customers as c join products as p where price > (select avg(price) from products);
+select concat(first_name,"",last_name) as Full_name,
+sum(p.price * oi.quantity) as Total_spent
+from  customers as cyy
 
 
+join order_items as oi
+group by Full_name
+having  Total_spent  > ( select avg(p.price * oi.quantity) from  customers as c
+join order_items as oi);
 
+
+-- Find products that have never been ordered.
+
+
+-- Window Functions
+
+-- Rank products by price.
+
+-- RANK() OVER (ORDER BY price DESC)
+
+-- Running total of payments.
+
+-- Top 3 expensive products.
