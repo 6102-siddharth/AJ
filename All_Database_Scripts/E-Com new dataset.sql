@@ -211,29 +211,49 @@ select * from products where price =(select max(price) from products);
 select * from products order by price desc limit 1;
 
 -- Find customers who spent more than average spending.
--- select * from customers as c join products as p where price > (select avg(price) from products);
-select concat(first_name,"",last_name) as Full_name,
-sum(p.price * oi.quantity) as Total_spent
-from  customers as cyy
-
-
+with abc as (select concat(first_name," ",last_name) fullname ,sum(oi.quantity * p.price) as spend
+from customers as c join orders as o
+on c.customer_id =o.customer_id
 join order_items as oi
-group by Full_name
-having  Total_spent  > ( select avg(p.price * oi.quantity) from  customers as c
-join order_items as oi);
+on o.order_id=oi.order_id
+join products as p
+on p.product_id=oi.product_id
+group by fullname)
+
+select fullname,spend
+from abc
+where spend > (select avg(spend) from abc);
 
 
 -- Find products that have never been ordered.
+select Product_name , count(quantity)as quantity 
+from products as p left join order_items as oi
+on p.product_id = oi.product_id
+group by Product_name
+having count(oi.quantity) =0;
 
 
 
 
 -- Window Functions
 
+
 -- Rank products by price.
+select product_name, price, rank() over(order by price desc) as rank_  from products;
 
 -- RANK() OVER (ORDER BY price DESC)
+select *,rank() over(order by price desc)as rank_price from products;
 
 -- Running total of payments.
 
+
 -- Top 3 expensive products.
+-- (select * , rank() over(order by price desc) as expense
+-- from products ); 
+with top as(select product_name,price,
+rank() over(order by price desc) as Top_products
+from products )
+
+select product_name,price
+from top
+where top_products < 4;
