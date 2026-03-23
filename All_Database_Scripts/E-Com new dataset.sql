@@ -226,6 +226,8 @@ join order_items as oi);
 -- Find products that have never been ordered.
 
 
+
+
 -- Window Functions
 
 -- Rank products by price.
