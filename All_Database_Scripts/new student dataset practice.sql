@@ -163,5 +163,219 @@ INSERT INTO Payments VALUES
 (29,29,6000,'2024-05-22','UPI'),
 (30,30,7000,'2024-05-25','Card');
 
+select * from students;
+select * from enrollments;
+select * from courses;
+select * from payments;
 
+
+-- 1. WHERE Clause
+
+-- 1.	Find all students from Pune 
+select * from students where city ="Pune";
+
+-- 2.	Get students who joined after '2024-03-01' 
+select * from students where join_date > '2024-03-01';
+
+-- 3.	Find courses with price greater than 4000 
+select * from courses where price > 4000;
+
+-- 4.	Show enrollments with status = 'Completed' 
+select * from enrollments where status ="Completed";
+
+-- 5.	Get payments made using UPI 
+select * from payments where payment_mode ="UPI";
+
+-- 6.	Find courses in 'Data' category 
+select * from courses where category="Data";
+
+-- 7.	Show students from Mumbai or Delhi 
+select * from students where city ="Mumbai" or city ="Delhi";
+
+-- 8.	Get courses with duration more than 6 weeks 
+select * from courses where duration_weeks > 6;
+
+-- 9.	Find enrollments after '2024-04-01' 
+select * from enrollments where enroll_date > "2024-04-01";
+
+-- 10.	Get payments where amount > 5000 
+select * from payments where amount >5000;
+
+-- 11.	Find students whose name is 'Amit Sharma' 
+select * from students where name ="amit Sharma";
+
+-- 12.	Show courses with price between 3000 and 6000 
+select * from courses where price between 3000 and 6000;
+
+-- 13.	Get enrollments with status 'Dropped' 
+select * from enrollments where status ="Dropped";
+
+-- 14.	Find students not from Delhi 
+select * from students where city !="Delhi";
+
+-- 15.	Get payments before '2024-03-01'
+select * from payments where payment_date < '2024-03-01';
+
+-- 2. ORDER BY 
+
+
+-- 1.	Sort students by join_date ascending 
+select * from students order by join_date asc;
+
+-- 2.	Sort courses by price descending 
+select * from courses order by price desc;
+
+-- 3.	Order enrollments by enroll_date 
+select * from enrollments order by enroll_date asc;
+
+-- 4.	Sort payments by amount highest to lowest 
+select * from payments order by amount desc;
+
+-- 5.	Order students by name alphabetically 
+select * from students order by name ;
+
+-- 6.	Sort courses by duration_weeks descending 
+select * from courses order by duration_weeks desc;
+
+-- 7.	Order enrollments by status 
+select * from enrollments order by status;
+
+-- 8.	Sort payments by payment_date latest first 
+select * from payments order by payment_date desc;
+
+-- 9.	Order courses by category 
+select * from courses order by category;
+
+-- 10.	Sort students by city
+select * from students order by city;
+
+-- 3. GROUP BY 
+
+-- 1.	Count students per city 
+select city,count(student_id) from students group by city;
+
+-- 2.	Count courses per category 
+select category,count(course_id) from courses group by category; 
+
+-- 3.	Find total enrollments per course 
+select course_name, sum(price) from courses group by course_name;
+
+-- 4.	Count enrollments by status 
+select status, count(enrollment_id) as enrol_count from enrollments group by status; 
+
+-- 5.	Find total payments per student 
+select student_id ,sum(amount) Total_payments from payments group by student_id;
+
+-- 6.	Find average course price per category 
+select category ,avg(price) Avg_price from courses group by category;
+
+-- 7.	Count students joined per month 
+select date_format(join_date,'%Y-%m')as month, 
+count(student_id) Total_students from students
+ group by month
+ order by month;
+
+-- 8.	Find total revenue (sum of amount) 
+select sum(amount)from payments; 
+
+-- 9.	Count payments by payment_mode 
+select payment_mode,count(payment_id) from payments group by payment_mode;
+
+-- 10.	Find max course price per category 
+select category, max(price) from courses group by category;
+
+-- 11.	Find min payment per student 
+select student_id, min(amount) from payments group by student_id;
+
+-- 12.	Count enrollments per month 
+select date_format(enroll_date,'%M') as months ,
+count(enrollment_id) from enrollments group by months ;
+
+-- 13.	Find average duration per category 
+select category , avg(duration_weeks) as avg_duration_weeks 
+from courses 
+group by category;
+
+-- 14.	Count students per join_date 
+select join_date, count(student_id) from students 
+group by join_date;
+
+-- 15.	Find total enrollments per student
+select student_id, count(*) total_enrollments from enrollments 
+group by student_id ;
+
+
+-- 4. HAVING Clause 
+-- 1.	Find cities having more than 2 students 
+select city,count(*) as city_count from students 
+group by city
+having city_count > 2;
+
+-- 2.	Find categories with average price > 4000 
+select category, avg(price) as avg_price 
+from courses 
+group by category
+having avg_price >4000;
+
+-- 3.	Show students who made payments > 5000 total 
+select student_id, sum(amount) from payments group by student_id having sum(amount) >5000;
+
+-- 4.	Find courses with more than 1 enrollment 
+
+
+-- 5.	Find payment modes used more than 5 times 
+
+
+-- 6.	Show students with more than 1 enrollment 
+
+
+-- 7.	Find categories with total courses > 3 
+
+
+-- 8.	Find students whose total payment < 3000 
+
+
+-- 9.	Show months with more than 2 enrollments 
+
+
+-- 10.	Find cities with avg join count > 2 
+
+
+-- . LIKE / Wildcards 
+
+
+-- 1.	Find students whose name starts with 'A' 
+
+
+-- 2.	Find students whose name ends with 'a' 
+
+
+-- 3.	Find students containing 'sh' in name 
+
+
+-- 4.	Find courses starting with 'Data' 
+
+
+-- 5.	Find courses ending with 'ing' 
+
+
+-- 6.	Find students with email containing 'gmail' 
+
+
+-- 7.	Find cities starting with 'M' 
+
+
+-- 8.	Find courses with 'SQL' in name 
+
+
+-- 9.	Find students whose name has exactly 5 letters 
+
+
+-- 10.	Find courses where second letter is 'a' 
+
+
+-- 11.	Find students whose name starts with 'S' and ends with 'a' 
+
+
+-- 12.	Find emails ending with '.com'
 
