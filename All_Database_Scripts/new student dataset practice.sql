@@ -321,49 +321,65 @@ having avg_price >4000;
 select student_id, sum(amount) from payments group by student_id having sum(amount) >5000;
 
 -- 4.	Find courses with more than 1 enrollment 
+select  course_id,count(enrollment_id) as counts from enrollments group by course_id having  count(enrollment_id) >1; 
 
 
 -- 5.	Find payment modes used more than 5 times 
-
+select payment_mode,count(payment_mode) from payments group by payment_mode 
+having count(payment_mode) > 5;
 
 -- 6.	Show students with more than 1 enrollment 
-
+select student_id , count(*) 
+from enrollments group by student_id 
+having count(*) > 1;
 
 -- 7.	Find categories with total courses > 3 
-
+select category ,count(course_id) 
+from courses 
+group by category 
+having count(course_id) >3 ;
 
 -- 8.	Find students whose total payment < 3000 
-
+select * from payments;
+select student_id , sum(amount) 
+from payments 
+group by student_id 
+having sum(amount) > 3000;
 
 -- 9.	Show months with more than 2 enrollments 
-
+select date_format(enroll_date,"%M") as months, count(enrollment_id)as enrolls
+from enrollments group by months
+having enrolls >2 ;
 
 -- 10.	Find cities with avg join count > 2 
+
+
+
 
 
 -- . LIKE / Wildcards 
 
 
 -- 1.	Find students whose name starts with 'A' 
-
+select * from students where name like "A%";
 
 -- 2.	Find students whose name ends with 'a' 
-
+select * from students where name like "%a";
 
 -- 3.	Find students containing 'sh' in name 
-
+select * from students where name like "%sh%";
 
 -- 4.	Find courses starting with 'Data' 
-
+select * from courses where course_name like "Data%";
 
 -- 5.	Find courses ending with 'ing' 
-
+select * from courses where course_name like "%ing";
 
 -- 6.	Find students with email containing 'gmail' 
-
+select * from students where email like "%gmail%";
 
 -- 7.	Find cities starting with 'M' 
-
+select * from students where city like "M%";
 
 -- 8.	Find courses with 'SQL' in name 
 
@@ -378,4 +394,7 @@ select student_id, sum(amount) from payments group by student_id having sum(amou
 
 
 -- 12.	Find emails ending with '.com'
+
+
+
 
