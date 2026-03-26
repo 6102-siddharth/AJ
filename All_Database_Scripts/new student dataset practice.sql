@@ -381,6 +381,38 @@ select * from payments;
 -- GROUP BY city
 -- HAVING AVG(join_count) > 2;
 
+-- 4. HAVING Clause – 10 Questions
+-- 1.	Find cities having more than 2 students 
+select city, count(student_id) from students group by city having count(student_id) >2;
+
+-- 2.	Find categories with average price > 4000 
+select category, avg(price) from courses group by category having avg(price) > 4000;
+
+-- 3.	Show students who made payments > 5000 total 
+select student_id , sum(amount) from payments group by student_id having sum(amount) > 5000;
+
+-- 4.	Find courses with more than 1 enrollment 
+select enrollment_id, count(course_id) from enrollments group by enrollment_id;
+
+-- 5.	Find payment modes used more than 5 times 
+
+
+-- 6.	Show students with more than 1 enrollment 
+
+
+-- 7.	Find categories with total courses > 3 
+
+
+-- 8.	Find students whose total payment < 3000 
+
+
+-- 9.	Show months with more than 2 enrollments 
+
+
+-- 10.	Find cities with avg join count > 2
+
+
+
 
 
 -- . LIKE / Wildcards 
@@ -464,7 +496,10 @@ on e.course_id=c.course_id;
 
 -- Intermediate Joins
 -- 6.	Find total courses enrolled by each student 
-
+select s.student_id,name, count(e.course_id) as Total_counts 
+from students s left join enrollments e 
+on s.student_id=e.student_id
+group by s.student_id,name;
 
 -- 7.	Show total amount paid per student 
 
