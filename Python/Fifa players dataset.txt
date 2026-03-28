@@ -1,0 +1,174 @@
+Name,Age,Nationality,Club,Position,Overall,Potential,Value_Million,Wage_K,Preferred_Foot
+Lionel Messi,36,Argentina,Inter Miami,RW,90,90,35,500,Left
+Cristiano Ronaldo,39,Portugal,Al Nassr,ST,88,88,15,400,Right
+Kylian Mbappe,25,France,PSG,ST,91,95,180,350,Right
+Erling Haaland,24,Norway,Man City,ST,91,94,170,300,Left
+Neymar Jr,32,Brazil,Al Hilal,LW,89,89,60,250,Right
+Kevin De Bruyne,33,Belgium,Man City,CM,91,91,90,350,Right
+Harry Kane,30,England,Bayern Munich,ST,90,90,110,300,Right
+Mohamed Salah,31,Egypt,Liverpool,RW,89,89,95,280,Left
+Vinicius Jr,24,Brazil,Real Madrid,LW,89,93,150,250,Right
+Jude Bellingham,21,England,Real Madrid,CM,90,95,160,220,Right
+Robert Lewandowski,35,Poland,Barcelona,ST,90,90,40,300,Right
+Pedri,21,Spain,Barcelona,CM,87,93,120,180,Right
+Bukayo Saka,23,England,Arsenal,RW,88,92,130,200,Left
+Phil Foden,24,England,Man City,CAM,88,92,125,210,Left
+Bruno Fernandes,30,Portugal,Man United,CAM,88,88,85,250,Right
+Marcus Rashford,27,England,Man United,LW,87,89,95,220,Right
+Son Heung-min,32,South Korea,Tottenham,LW,88,88,70,240,Right
+Antoine Griezmann,33,France,Atletico Madrid,CF,88,88,65,230,Left
+Lautaro Martinez,27,Argentina,Inter Milan,ST,88,90,100,220,Right
+Victor Osimhen,26,Nigeria,Napoli,ST,89,92,120,230,Right
+Rodri,28,Spain,Man City,CDM,89,91,110,260,Right
+Casemiro,32,Brazil,Man United,CDM,87,87,40,250,Right
+Joshua Kimmich,29,Germany,Bayern Munich,CDM,89,90,95,270,Right
+Bernardo Silva,30,Portugal,Man City,CM,88,88,85,240,Left
+Rafael Leao,25,Portugal,AC Milan,LW,88,92,115,210,Right
+Jamal Musiala,21,Germany,Bayern Munich,CAM,88,94,140,200,Right
+Gavi,20,Spain,Barcelona,CM,86,92,110,180,Right
+Declan Rice,26,England,Arsenal,CDM,88,90,105,220,Right
+Martin Odegaard,26,Norway,Arsenal,CAM,88,90,100,210,Left
+Alisson Becker,32,Brazil,Liverpool,GK,89,89,55,200,Right
+Ederson,31,Brazil,Man City,GK,89,89,50,210,Left
+Thibaut Courtois,32,Belgium,Real Madrid,GK,90,90,60,220,Left
+Jan Oblak,32,Slovenia,Atletico Madrid,GK,89,89,55,210,Right
+Marc Andre ter Stegen,32,Germany,Barcelona,GK,89,89,60,230,Right
+Achraf Hakimi,26,Morocco,PSG,RB,87,89,75,200,Right
+Trent Alexander-Arnold,26,England,Liverpool,RB,87,89,80,210,Right
+Alphonso Davies,24,Canada,Bayern Munich,LB,87,91,90,200,Left
+Theo Hernandez,27,France,AC Milan,LB,87,89,75,210,Left
+Virgil van Dijk,33,Netherlands,Liverpool,CB,89,89,50,280,Right
+Ruben Dias,27,Portugal,Man City,CB,89,91,95,250,Right
+Antonio Rudiger,31,Germany,Real Madrid,CB,88,88,45,230,Right
+Matthijs de Ligt,25,Netherlands,Bayern Munich,CB,87,90,85,220,Right
+Kalidou Koulibaly,33,Senegal,Al Hilal,CB,86,86,30,200,Right
+Gerard Moreno,32,Spain,Villarreal,ST,85,85,35,180,Left
+Paulo Dybala,30,Argentina,Roma,CAM,86,86,45,200,Left
+Angel Di Maria,36,Argentina,Benfica,RW,85,85,20,180,Left
+Edin Dzeko,38,Bosnia,Fenerbahce,ST,84,84,10,150,Right
+Zlatan Ibrahimovic,42,Sweden,Retired,ST,82,82,5,100,Right
+
+
+
+
+BASIC QUESTIONS (All Tools)
+Start with these 👇
+📊 Questions
+1.	Show all players 
+2.	Display only Name, Age, Club 
+3.	Find players from Brazil 
+4.	Find players with Overall > 90 
+5.	Sort players by Value (descending) 
+6.	Count total players 
+7.	Find average age 
+8.	Find maximum and minimum Overall 
+2. INTERMEDIATE LEVEL
+🔹 SQL Questions
+1.	Count players per country 
+2.	Find top 5 highest paid players (Wage) 
+3.	Find average rating per club 
+4.	Show players whose age is between 25 and 30 
+5.	Find players playing as ST (Striker) 
+6.	Count players by position 
+7.	Find total market value per club 
+8.	Show players with Left foot only 
+9.	Find clubs with more than 2 players 
+10.	Get players sorted by Potential - Overall (growth)
+Python (Pandas) Questions
+1.	Load dataset and check .info() 
+2.	Handle missing values (if any) 
+3.	Create new column:
+👉 Growth = Potential - Overall 
+4.	Filter players with Growth > 3 
+5.	Group by Club → average Overall 
+6.	Top 10 players by Value 
+7.	Count players by Position 
+8.	Find correlation between Age & Overall 
+9.	Convert Value column into numeric 
+10.	Export cleaned dataset
+Power BI Tasks
+1.	Create: 
+o	Bar chart → Players per Country 
+o	Pie chart → Position distribution 
+2.	KPI Cards: 
+o	Avg Overall 
+o	Total Value 
+o	Total Players 
+3.	Top 10 players by Value 
+4.	Slicer: 
+o	Club 
+o	Nationality 
+5.	Table: 
+o	Name, Club, Overall, Wage 
+6.	Create calculated column:
+👉 Growth = Potential - Overall
+3. ADVANCED LEVEL (IMPORTANT FOR JOBS)
+🔹 SQL Advanced
+1.	Find top player from each country 
+2.	Rank players based on Overall 
+3.	Dense rank based on Wage 
+4.	Find second highest paid player 
+5.	Find players above average rating 
+6.	Find clubs with highest avg rating 
+7.	Use CASE:
+👉 Categorize players: 
+o	90+ → Elite 
+o	85–89 → Pro 
+o	<85 → Average 
+8.	Find duplicate clubs (count check) 
+9.	Find players whose name starts with 'A' 
+10.	Window Function:
+👉 Running total of Value
+Python Advanced
+1.	Apply lambda:
+👉 Categorize players (same as SQL CASE) 
+2.	Create pivot table: 
+o	Rows: Club 
+o	Values: Avg Overall 
+3.	Heatmap (correlation matrix) 
+4.	Distribution plot of Age 
+5.	Find outliers in Wage 
+6.	Group players by Age groups 
+7.	Merge with another dataset (optional) 
+8.	Feature Engineering:
+👉 Value per Overall ratio 
+9.	Visualization: 
+o	Top clubs by value 
+10.	Build mini EDA report 
+Power BI Advanced
+1.	Create Dashboard: 
+o	Player Analysis 
+o	Club Analysis 
+2.	DAX Measures: 
+o	Avg Wage 
+o	Max Potential 
+3.	Create ranking: 
+o	Top players 
+4.	Drill-through: 
+o	Club → Player details 
+5.	Conditional formatting: 
+o	Highlight elite players 
+6.	Create tooltip page 
+7.	Compare: 
+o	Value vs Wage 
+8.	Create scatter plot: 
+o	Age vs Overall 
+9.	Bookmark navigation 
+10.	Publish dashboard
+11.	4. REAL PROJECT QUESTIONS (VERY IMPORTANT)
+12.	These are resume-level 👇
+13.	🔥 Case Study 1:
+14.	👉 “Which club has the best value for money players?”
+15.	🔥 Case Study 2:
+16.	👉 “Which country produces the highest potential players?”
+17.	🔥 Case Study 3:
+18.	👉 “Is higher wage always linked to higher performance?”
+19.	🔥 Case Study 4:
+20.	👉 “Find undervalued players (low value, high overall)”
+HOW TO USE THIS (IMPORTANT)
+Follow this order:
+1.	SQL → solve all queries 
+2.	Python → do EDA 
+3.	Power BI → build dashboard 
+4.	Combine → Make portfolio project
+
