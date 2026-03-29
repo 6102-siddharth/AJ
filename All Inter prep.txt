@@ -1,0 +1,267 @@
+Basic Data Analyst Interview Questions
+1. What is Data Analysis?
+Answer:
+Data analysis is the process of collecting, cleaning, organizing, and analyzing data to find useful information and help businesses make better decisions.
+________________________________________
+2. What does a Data Analyst do?
+Answer:
+A Data Analyst:
+•	Collects data from different sources 
+•	Cleans and processes the data 
+•	Analyzes the data using tools like SQL, Excel, Python 
+•	Creates reports and dashboards using tools like Power BI or Tableau 
+•	Helps companies make data-driven decisions. 
+________________________________________
+3. What is Data Cleaning?
+Answer:
+Data cleaning means removing errors, duplicates, and missing values from the dataset to make the data accurate for analysis.
+Example:
+•	Remove duplicate rows 
+•	Fix incorrect values 
+•	Handle missing values. 
+________________________________________
+4. What are the common tools used by Data Analysts?
+Answer:
+Tool	Purpose
+Excel	Data cleaning & analysis
+SQL	Querying databases
+Python	Data analysis & automation
+Power BI	Dashboard & visualization
+Tableau	Data visualization
+________________________________________
+5. What is the difference between Data Analysis and Data Analytics?
+Answer:
+Data Analysis	Data Analytics
+Examining data	Using tools & techniques to analyze data
+Finding patterns	Predicting future trends
+________________________________________
+6. What is structured and unstructured data?
+Structured Data
+•	Organized data 
+•	Stored in tables 
+•	Example: Database tables 
+Unstructured Data
+•	Not organized 
+•	Example: emails, videos, social media posts. 
+________________________________________
+7. What is a database?
+Answer:
+A database is a collection of structured data stored electronically that can be accessed and managed easily.
+Example:
+MySQL, PostgreSQL.
+________________________________________
+2. SQL Questions for Data Analyst
+8. What is SQL?
+Answer:
+SQL (Structured Query Language) is used to store, retrieve, update, and delete data from databases.
+________________________________________
+9. What are the main SQL commands?
+Command	Purpose
+SELECT	Retrieve data
+INSERT	Add data
+UPDATE	Modify data
+DELETE	Remove data
+Example:
+SELECT * FROM employees;
+________________________________________
+10. What is GROUP BY?
+Answer:
+GROUP BY is used to group rows with the same values and apply aggregate functions.
+Example:
+SELECT department, COUNT(*)
+FROM employees
+GROUP BY department;
+________________________________________
+11. What are Aggregate Functions?
+Aggregate functions perform calculations on multiple rows.
+Examples:
+Function	Use
+COUNT()	Number of rows
+SUM()	Total
+AVG()	Average
+MIN()	Minimum
+MAX()	Maximum
+________________________________________
+12. What is JOIN in SQL?
+JOIN is used to combine data from multiple tables.
+Types:
+Join	Meaning
+INNER JOIN	Matching rows
+LEFT JOIN	All rows from left table
+RIGHT JOIN	All rows from right table
+FULL JOIN	All rows from both tables
+Example:
+SELECT orders.order_id, customers.name
+FROM orders
+JOIN customers
+ON orders.customer_id = customers.customer_id;
+________________________________________
+13. Difference between WHERE and HAVING
+WHERE	HAVING
+Filters rows	Filters groups
+Used before GROUP BY	Used after GROUP BY
+Example:
+SELECT department, COUNT(*)
+FROM employees
+GROUP BY department
+HAVING COUNT(*) > 5;
+________________________________________
+3. Excel Questions
+14. What are Pivot Tables?
+Answer:
+Pivot Tables summarize large datasets to quickly analyze data.
+Example:
+•	Sales by region 
+•	Profit by product. 
+________________________________________
+15. What is VLOOKUP?
+VLOOKUP searches a value in a table and returns a matching result.
+Example:
+=VLOOKUP(A2,Sheet2!A:B,2,FALSE)
+________________________________________
+16. Difference between VLOOKUP and XLOOKUP
+VLOOKUP	XLOOKUP
+Search left to right	Search any direction
+Older function	Newer function
+________________________________________
+4. Python Questions
+17. Why is Python used in Data Analysis?
+Answer:
+Python is used because it:
+•	Handles large datasets 
+•	Has powerful libraries 
+•	Automates analysis. 
+Popular libraries:
+•	Pandas 
+•	NumPy 
+•	Matplotlib 
+•	Seaborn 
+________________________________________
+18. What is Pandas?
+Pandas is a Python library used for data manipulation and analysis.
+Example:
+import pandas as pd
+
+df = pd.read_csv("data.csv")
+print(df.head())
+________________________________________
+19. What is DataFrame?
+A DataFrame is a table-like structure with rows and columns in Pandas.
+Example:
+Name   Age
+John   25
+Sara   30
+________________________________________
+20. What is NumPy?
+NumPy is a Python library used for numerical operations and arrays.
+Example:
+import numpy as np
+
+arr = np.array([1,2,3,4])
+________________________________________
+5. Statistics Questions
+21. What is Mean?
+Mean = Average value.
+Formula:
+Mean = Sum of values / Number of values
+________________________________________
+22. What is Median?
+Median is the middle value in sorted data.
+Example:
+1, 2, 3, 4, 5
+Median = 3
+________________________________________
+23. What is Mode?
+Mode is the most frequently occurring value.
+Example:
+1, 2, 2, 3, 4
+Mode = 2
+________________________________________
+24. What is Standard Deviation?
+It measures how spread out the data is from the mean.
+Higher value = more spread.
+________________________________________
+6. Data Visualization Questions
+25. Why is Data Visualization important?
+It helps to:
+•	Understand data quickly 
+•	Identify patterns 
+•	Communicate insights clearly. 
+________________________________________
+26. What charts are used in Data Analysis?
+Chart	Use
+Bar Chart	Compare categories
+Line Chart	Trends over time
+Pie Chart	Percentage distribution
+Scatter Plot	Relationship between variables
+________________________________________
+7. Scenario Based Questions
+27. How do you handle missing data?
+Methods:
+•	Remove rows 
+•	Replace with mean/median 
+•	Use interpolation. 
+________________________________________
+28. How do you detect outliers?
+Methods:
+•	Box plot 
+•	Z-score 
+•	IQR method. 
+________________________________________
+29. What steps do you follow in a Data Analysis project?
+1.	Understand the problem 
+2.	Collect data 
+3.	Clean the data 
+4.	Analyze data 
+5.	Visualize results 
+6.	Share insights. 
+________________________________________
+8. Advanced Data Analyst Questions
+30. What is ETL?
+ETL stands for:
+Step	Meaning
+Extract	Get data from sources
+Transform	Clean & process data
+Load	Store data in database
+________________________________________
+31. What is Data Warehousing?
+A data warehouse is a central storage system used for reporting and analysis.
+Examples:
+•	Snowflake 
+•	Amazon Redshift. 
+________________________________________
+32. What is KPI?
+KPI = Key Performance Indicator
+It measures business performance.
+Examples:
+•	Revenue 
+•	Customer retention 
+•	Sales growth. 
+________________________________________
+33. Difference between OLTP and OLAP
+OLTP	OLAP
+Transactional data	Analytical data
+Used in applications	Used in analytics
+________________________________________
+9. HR + Data Analyst Questions
+34. Why do you want to become a Data Analyst?
+Answer:
+"I enjoy working with data and solving problems. Data analysis helps businesses make better decisions. I like using tools like SQL, Excel, and Python to analyze data and create insights."
+________________________________________
+35. What are your strengths?
+Example:
+•	Analytical thinking 
+•	Problem solving 
+•	SQL and Python skills 
+•	Data visualization. 
+________________________________________
+36. How do you handle tight deadlines?
+Answer:
+"I prioritize tasks, break work into smaller steps, and focus on completing the most important tasks first."
+________________________________________
+10. Project Based Questions
+If interviewer asks about your Supply Chain Dashboard project:
+Question: Explain your project.
+Answer:
+"I worked on a Supply Chain Performance Dashboard where I analyzed more than 600,000 records using SQL and Power BI. I tracked key metrics like inventory turnover, delivery delays, and warehouse utilization. The dashboard helped visualize supply chain performance and identify delays in shipments."
+
