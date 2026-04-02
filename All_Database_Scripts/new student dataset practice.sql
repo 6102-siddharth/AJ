@@ -460,6 +460,12 @@ select enrollment_id , price
 from courses c right join enrollments e
 on e.course_id=c.course_id;
 
+
+select * from students;
+select * from enrollments;
+select * from courses;
+select * from payments;
+
 -- Intermediate Joins
 -- 6.	Find total courses enrolled by each student 
 select s.student_id,name,course_name, count(e.course_id) as Total_counts 
@@ -470,7 +476,7 @@ on c.course_id=e.course_id
 group by s.student_id,name,course_name;
 
 -- 7.	Show total amount paid per student 
-
+select name, p.amount from students as s join 
 
 -- 8.	Find students who enrolled in 'Data' category 
 
