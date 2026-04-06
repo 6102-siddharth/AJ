@@ -45,10 +45,20 @@ on c.customer_id=o.customer_id
 group by name;
 
 -- 6.	Get the latest order of each customer. 
-
+select c.customer_id, name, max(order_date) as latest_Order_date
+from customers c left join orders o 
+on c.customer_id=o.customer_id
+group by customer_id, name;
 
 -- 7.	Find products that were never sold. 
-
+select * from customers;
+select * from employees;
+select * from orders;
+select * from payments;
+select * from products;
+select p.product_id, product_name 
+from products p left join orders o
+on p.product_id = o.product_id
 
 -- 8.	Get total orders per city. 
 
