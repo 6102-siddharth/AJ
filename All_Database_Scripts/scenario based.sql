@@ -8,6 +8,15 @@ select * from orders;
 select * from payments;
 select * from products;
 
+Delimiter //
+create procedure customers1()
+Begin 
+select * from customers ;
+End //
+Delimiter ;
+drop procedure customers1;
+call customers1();
+
 -- MySQL Scenario-Based Questions:
 
 -- Basic to Intermediate
